@@ -1,32 +1,56 @@
-@media (max-width: 576px) {
-    .fix-bot{
-        display: none !important;
+@media (max-width: 767.98px) {
+    .stick a {
+        font-size: 10px;
     }
-    .map-location{
-        max-width: 100%;
-    }
-    .find-local-text h1{
-        font-size: 20px;
-    }
-    .btn-btn-timkiem input{
+    .map-location {
         width: 100%;
     }
-    .lSSlideOuter .lSPager.lSGallery{
+    .btn-btn-timkiem input {
+        width: 250px;
+    }
+    header nav ul {
+        display: none;
+    }
+    .slide-2 {
+        display: none;
+    }
+    .lSSlideOuter .lSPager.lSGallery {
         display: none !important;
     }
-    header nav ul{
-        display: none;
+}
+
+@media (max-width: 576px) {
+    .fix-bot {
+        display: none !important;
     }
-    .slide-2{
-        display: none;
+    .find-local-text h1 {
+        font-size: 20px;
     }
-    .content-nd h1{
+    
+    .content-nd h1 {
         font-size: 25px;
     }
-    .mo-ta a:nth-child(1){
+    .mo-ta a:nth-child(1) {
         font-size: 1.5rem;
     }
-    .ass{
-        display: none;
+    
+    .res{
+        width: 56%;
+    }
+    .res a{
+        font-size: 14px;
+    }
+    .res a:nth-child(1){
+        font-weight: bold;
+    }
+    .contact{
+        width: 44%;
+        text-align: right;
+    }
+    .contact a{
+        font-size: 14px;
+    }
+    .lien-he a{
+        font-size: 14px;
     }
 }

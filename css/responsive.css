@@ -17,6 +17,15 @@
     .lSSlideOuter .lSPager.lSGallery {
         display: none !important;
     }
+    .res a{
+        font-size: 14px;
+    }
+    .contact a{
+        font-size: 14px;
+    }
+    .lien-he a{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -36,21 +45,16 @@
     
     .res{
         width: 56%;
+        /* position: relative; */
     }
-    .res a{
-        font-size: 14px;
-    }
+   
     .res a:nth-child(1){
         font-weight: bold;
     }
     .contact{
         width: 44%;
-        text-align: right;
+        text-align: left;
+        /* position: absolute; */
     }
-    .contact a{
-        font-size: 14px;
-    }
-    .lien-he a{
-        font-size: 14px;
-    }
+    
 }

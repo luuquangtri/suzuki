@@ -26,6 +26,12 @@
     .lien-he a{
         font-size: 13px;
     }
+    .mobile-menu{
+        display: block;
+    }
+    header nav ul:nth-of-type(1) img{
+        width: 50px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -56,5 +62,6 @@
         text-align: left;
         /* position: absolute; */
     }
+    
     
 }

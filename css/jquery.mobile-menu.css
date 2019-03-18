@@ -9,10 +9,10 @@ html {
   overflow-x: hidden;
 }
 
-#page {
+/* #page {
   position: relative;
   left: 0;
-}
+} */
 
 .overlay {
   position: fixed;
@@ -251,8 +251,8 @@ html {
   padding: 12px 13px;
   width: auto;
   float: left;
-  background: #01c7c5;
-  border-right: 1px solid white;
+  /* background: #01c7c5;
+  border-right: 1px solid white; */
   height: 45px;
 }
 

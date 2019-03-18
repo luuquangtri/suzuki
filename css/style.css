@@ -502,6 +502,7 @@ label {
 
 .ass a {
     line-height: 25px;
+    text-decoration: none;
 }
 
 .title-new {

@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+    .fix-bot{
+        display: none !important;
+    }
+    .map-location{
+        max-width: 100%;
+    }
+    .find-local-text h1{
+        font-size: 20px;
+    }
+    .btn-btn-timkiem input{
+        width: 50%;
+    }
+    .lSSlideOuter .lSPager.lSGallery{
+        display: none !important;
+    }
+    header nav ul{
+        display: none;
+    }
+    .slide-2{
+        display: none;
+    }
+    .content-nd h1{
+        font-size: 25px;
+    }
+    .mo-ta a:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .ass{
+        display: none;
+    }
+}

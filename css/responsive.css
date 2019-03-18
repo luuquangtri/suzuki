@@ -32,6 +32,9 @@
     header nav ul:nth-of-type(1) img{
         width: 50px;
     }
+    label{
+        padding: 8px;
+    }
 }
 
 @media (max-width: 576px) {

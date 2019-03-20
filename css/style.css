@@ -343,7 +343,11 @@ label {
     color: white;
 }
 
-.find-local-text h1, .find-local-text p {
+.find-local-text h1 {
+    color: white;
+    font-family: 'OpenSans-Bold';
+}
+.find-local-text p{
     color: white;
 }
 
@@ -542,30 +546,30 @@ label {
 }
 
 .quick-button li.pricing-list a {
-    background-position: 45px -264px;
+    background-position: 45px -265px;
 }
 .quick-button li.pricing-list:hover a {
     background-position: 45px -414px;
     color: #00ffff;
 }
 .quick-button li.find-dealer a {
-    background-position: 45px 36px;
+    background-position: 45px 37px;
 }
 .quick-button li.find-dealer:hover a {
-    background-position: 45px -114px;
+    background-position: 45px -111px;
     color: #00ffff;
 }
 .quick-button li.price-calculator a {
-    background-position: 45px -874px;
+    background-position: 45px -875px;
 }
 .quick-button li.price-calculator:hover a {
-    background-position: 45px -1014px;
+    background-position: 45px -1018px;
     color: #00ffff;
 }
 .quick-button li.test-drive a {
-    background-position: 45px -564px;
+    background-position: 45px -565px;
 }
 .quick-button li.test-drive:hover a {
-    background-position: 45px -714px;
+    background-position: 45px -717px;
     color: #00ffff;
 }

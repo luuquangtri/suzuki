@@ -420,6 +420,10 @@ label {
 .soci {
     margin: 0 5px;
 }
+.soci img{
+    border: 1px solid;
+    border-radius: 50%;
+}
 .social{
     padding: 0 !important;
 }

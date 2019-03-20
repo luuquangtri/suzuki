@@ -419,10 +419,10 @@ label {
 
 .soci {
     margin: 0 5px;
-    border: 1px solid white;
-    border-radius: 50%;
 }
-
+.social{
+    padding: 0 !important;
+}
 .ass {
     margin-top: 15px;
 }
@@ -546,28 +546,28 @@ label {
 }
 
 .quick-button li.pricing-list a {
-    background-position: 45px -265px;
+    background-position: 45px -264px;
 }
 .quick-button li.pricing-list:hover a {
     background-position: 45px -414px;
     color: #00ffff;
 }
 .quick-button li.find-dealer a {
-    background-position: 45px 37px;
+    background-position: 45px 39px;
 }
 .quick-button li.find-dealer:hover a {
     background-position: 45px -111px;
     color: #00ffff;
 }
 .quick-button li.price-calculator a {
-    background-position: 45px -875px;
+    background-position: 45px -877px;
 }
 .quick-button li.price-calculator:hover a {
     background-position: 45px -1018px;
     color: #00ffff;
 }
 .quick-button li.test-drive a {
-    background-position: 45px -565px;
+    background-position: 45px -566px;
 }
 .quick-button li.test-drive:hover a {
     background-position: 45px -717px;

@@ -540,30 +540,33 @@ label {
     font-family: 'OpenSans-Bold';
     text-decoration: none;
 }
-.quick-button li a:hover{
-    color: #00ffff;
-}
+
 .quick-button li.pricing-list a {
     background-position: 45px -264px;
+    color: #00ffff;
 }
 .quick-button li.pricing-list:hover a {
     background-position: 45px -414px;
+    color: #00ffff;
 }
 .quick-button li.find-dealer a {
     background-position: 45px 36px;
 }
 .quick-button li.find-dealer:hover a {
     background-position: 45px -114px;
+    color: #00ffff;
 }
 .quick-button li.price-calculator a {
     background-position: 45px -874px;
 }
 .quick-button li.price-calculator:hover a {
     background-position: 45px -1014px;
+    color: #00ffff;
 }
 .quick-button li.test-drive a {
     background-position: 45px -564px;
 }
 .quick-button li.test-drive:hover a {
     background-position: 45px -714px;
+    color: #00ffff;
 }

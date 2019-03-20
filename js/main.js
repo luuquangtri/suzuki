@@ -68,4 +68,11 @@ $(document).ready(function () {
             ClassName: "mobile-menu"
         });
     });
+    $(".aaa").mouseover(function () {
+        $(".bbb").css("opacity", 0.2);
+        // $(this).css("opacity", 1);
+    })
+    $(".aaa").mouseleave(function () {
+        $(".bbb").css("opacity", 1);
+    })
 });

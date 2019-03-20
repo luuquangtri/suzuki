@@ -114,18 +114,19 @@ header nav ul:nth-of-type(2) li {
     padding: 3px 5px;
     margin-right: -3px;
     font-size: 140%;
+    border-right: 1px solid white;
     text-align: center;
 }
 
 header nav ul:nth-of-type(2) li a {
     display: inline-block;
     width: 135px;
-    padding: 4px 6px 3.4px 20px;
+    padding: 4px 6px 3.4px 8px;
     color: #fff;
-    font-size: 17px;
+    font-size: 14px;
     text-decoration: none;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'OpenSans-Bold';
 }
 
 .clear-fix {
@@ -231,17 +232,16 @@ header nav ul:nth-of-type(2) li a {
 
 .slide-2 {
     background: #003145;
-    padding: 25px 0;
 }
 
-.slide-2 a {
+/* .slide-2 a {
     color: white;
     padding: 25px 0;
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: monospace;
-}
+    font-family: 'OpenSans-Regular';
+} */
 
 .slide-2 .fix {
     padding-top: 8px;
@@ -255,6 +255,8 @@ header nav ul:nth-of-type(2) li a {
     text-align: center;
     text-transform: uppercase;
     margin: 20px 0;
+    font-family: 'OpenSans-Bold';
+    color: black;
 }
 
 .discription a img:hover {
@@ -299,10 +301,11 @@ header nav ul:nth-of-type(2) li a {
 
 .new h1 {
     text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
 }
 
 .color-new {
-    background: black;
+    background: #003145;
     padding: 20px 0;
 }
 
@@ -311,6 +314,7 @@ header nav ul:nth-of-type(2) li a {
     color: white;
     font-size: 13px;
     line-height: 20px;
+    font-family: 'OpenSans-Regular';
 }
 
 .btn-view a {
@@ -410,7 +414,7 @@ label {
 }
 
 .soci {
-    margin: 0 20px;
+    margin: 0 5px;
     border: 1px solid white;
     border-radius: 50%;
 }
@@ -470,6 +474,7 @@ label {
     color: black;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'OpenSans-Bold';
 }
 
 /* .fix-bot .stick::before{
@@ -510,4 +515,55 @@ label {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+}
+
+.images-fix img:nth-child(1) {
+    max-width: 85% !important;
+}
+
+.quick-button li {
+    width: 25%;
+    /* box-shadow: 0 -4px 0 #cdcdcd inset; */
+    float: left;
+    list-style: none;
+}
+.quick-button li a {
+    background: url(../images/ez.png) no-repeat;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 110px;
+    display: table-cell;
+    height: 123px;
+    vertical-align: middle;
+    font-family: 'OpenSans-Bold';
+    text-decoration: none;
+}
+.quick-button li a:hover{
+    color: #00ffff;
+}
+.quick-button li.pricing-list a {
+    background-position: 45px -264px;
+}
+.quick-button li.pricing-list:hover a {
+    background-position: 45px -414px;
+}
+.quick-button li.find-dealer a {
+    background-position: 45px 36px;
+}
+.quick-button li.find-dealer:hover a {
+    background-position: 45px -114px;
+}
+.quick-button li.price-calculator a {
+    background-position: 45px -874px;
+}
+.quick-button li.price-calculator:hover a {
+    background-position: 45px -1014px;
+}
+.quick-button li.test-drive a {
+    background-position: 45px -564px;
+}
+.quick-button li.test-drive:hover a {
+    background-position: 45px -714px;
 }

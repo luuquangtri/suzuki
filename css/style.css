@@ -605,14 +605,13 @@ label {
 /*---- Genral classes end -------*/
 
 /*Change icons size here*/
-
-.social-icons .fa,.social-icons .fab {
+.social-icons .fab {
     font-size: 1.8em;
 }
 
 /*Change icons circle size and color here*/
 
-.social-icons .fa,.social-icons .fab {
+.social-icons .fab {
     width: 39px;
     /* height: 50px; */
     /* line-height: 50px; */
@@ -625,7 +624,7 @@ label {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.social-icons .fa:hover,.social-icons .fab:hover{
+.social-icons .fab:hover{
     color: white;
 }
 

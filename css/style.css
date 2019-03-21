@@ -347,7 +347,8 @@ label {
     color: white;
     font-family: 'OpenSans-Bold';
 }
-.find-local-text p{
+
+.find-local-text p {
     color: white;
 }
 
@@ -420,15 +421,18 @@ label {
 .soci {
     margin: 0 5px;
 }
-.soci img{
+
+.soci img {
     border: 1px solid;
     border-radius: 50%;
 }
-.social{
+
+.social {
     padding: 0 !important;
 }
+
 .ass {
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
 .ass span {
@@ -535,6 +539,7 @@ label {
     float: left;
     list-style: none;
 }
+
 .quick-button li a {
     background: url(../images/ez.png) no-repeat;
     font-size: 18px;
@@ -552,28 +557,75 @@ label {
 .quick-button li.pricing-list a {
     background-position: 45px -264px;
 }
+
 .quick-button li.pricing-list:hover a {
     background-position: 45px -414px;
     color: #00ffff;
 }
+
 .quick-button li.find-dealer a {
     background-position: 45px 39px;
 }
+
 .quick-button li.find-dealer:hover a {
     background-position: 45px -111px;
     color: #00ffff;
 }
+
 .quick-button li.price-calculator a {
     background-position: 45px -877px;
 }
+
 .quick-button li.price-calculator:hover a {
     background-position: 45px -1018px;
     color: #00ffff;
 }
+
 .quick-button li.test-drive a {
     background-position: 45px -566px;
 }
+
 .quick-button li.test-drive:hover a {
     background-position: 45px -717px;
     color: #00ffff;
 }
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+
+.social-icons .fa,.social-icons .fab {
+    font-size: 1.8em;
+}
+
+/*Change icons circle size and color here*/
+
+.social-icons .fa,.social-icons .fab {
+    width: 39px;
+    /* height: 50px; */
+    /* line-height: 50px; */
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.social-icons .fa:hover,.social-icons .fab:hover{
+    color: white;
+}
+

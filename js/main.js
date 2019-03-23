@@ -75,4 +75,8 @@ $(document).ready(function () {
     $(".aaa").mouseleave(function () {
         $(".bbb").css("opacity", 1);
     })
+    
+    // $(".poi").on('mouseenter mouseleave', function () {
+    //     $(this).find('.gray-overlay').fadeToggle(500);
+    // });
 });

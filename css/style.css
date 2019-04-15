@@ -548,45 +548,45 @@ label {
     font-weight: bold;
     padding-left: 110px;
     display: table-cell;
-    height: 123px;
+    height: 70px;
     vertical-align: middle;
     font-family: 'OpenSans-Bold';
     text-decoration: none;
 }
 
 .quick-button li.pricing-list a {
-    background-position: 45px -264px;
+    background-position: 45px -292px;
 }
 
 .quick-button li.pricing-list:hover a {
-    background-position: 45px -414px;
+    background-position: 45px -442px;
     color: #00ffff;
 }
 
 .quick-button li.find-dealer a {
-    background-position: 45px 39px;
+    background-position: 45px 12px;
 }
 
 .quick-button li.find-dealer:hover a {
-    background-position: 45px -111px;
+    background-position: 45px -138px;
     color: #00ffff;
 }
 
 .quick-button li.price-calculator a {
-    background-position: 45px -877px;
+    background-position: 45px -898px;
 }
 
 .quick-button li.price-calculator:hover a {
-    background-position: 45px -1018px;
+    background-position: 45px -1039px;
     color: #00ffff;
 }
 
 .quick-button li.test-drive a {
-    background-position: 45px -566px;
+    background-position: 45px -590px;
 }
 
 .quick-button li.test-drive:hover a {
-    background-position: 45px -717px;
+    background-position: 45px -741px;
     color: #00ffff;
 }
 

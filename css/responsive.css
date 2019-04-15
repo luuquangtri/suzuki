@@ -37,6 +37,12 @@
     }
 }
 
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .fix-md {
+        transform: translateX(50%);
+    }
+}
+
 @media screen and (min-width: 240px) and (max-width: 768px) {
     .fix-bot {
         display: none !important;
@@ -86,13 +92,22 @@
         flex-wrap: nowrap;
         justify-content: space-between;
     }
-    .discription h4{
+    .discription h4 {
         font-size: 18px;
     }
     .wrapper {
         padding-bottom: 5.1em;
     }
-    .slide-3-mobile{
+    .slide-3-mobile {
         display: block;
+    }
+    header {
+        margin-bottom: 20px;
+    }
+    .col-md-1 {
+        display: none;
+    }
+    .line-height {
+        display: none;
     }
 }

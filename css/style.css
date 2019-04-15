@@ -125,10 +125,15 @@ header nav ul:nth-of-type(2) li a {
     color: #fff;
     font-size: 14px;
     text-decoration: none;
-    font-weight: bold;
-    font-family: 'OpenSans-Bold';
+    font-weight: 600;
+    font-family: 'Open Sans';
+    font-style: normal;
 }
 
+header nav ul:nth-of-type(2) li a:hover{
+    color: #00ffff;
+    transition: 0.6s;
+}
 .clear-fix {
     clear: both;
 }
@@ -250,15 +255,34 @@ header nav ul:nth-of-type(2) li a {
 .slide-2 img {
     margin-right: 10px;
 }
-
+.content-nd{
+    position: relative;
+}
 .content-nd h1 {
     text-align: center;
     text-transform: uppercase;
     margin: 20px 0;
-    font-family: 'OpenSans-Bold';
+    font-family: 'Open Sans';
+    font-style: normal;
     color: black;
+    
 }
-
+.line-height{
+    position: absolute;
+    width: 35%;
+    background: #efefef;
+    height: 2px;
+    left: 32%;
+    top: 60px;
+}
+.line-height span{
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    border-radius: 10px;
+    background: #003145;
+    left: 43%;
+}
 .discription a img:hover {
     transform: scale(1.1);
     transition: 0.6s ease-out;
@@ -288,19 +312,25 @@ header nav ul:nth-of-type(2) li a {
 
 .mo-ta a:nth-child(1) {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 600;
+    font-family: 'Segoe UI';
     text-transform: uppercase;
 }
 
 .mo-ta a:nth-child(2) {
     text-transform: capitalize;
     font-style: italic;
+    font-family: 'Open Sans';
 }
 
 .mo-ta a:nth-child(3), .mo-ta a:nth-child(4) {
     font-style: italic;
+    font-family: 'Open Sans';
 }
-
+.discription h4{
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
     display: none;
 }
@@ -312,7 +342,8 @@ header nav ul:nth-of-type(2) li a {
 
 .new h1 {
     text-transform: uppercase;
-    font-family: 'OpenSans-Bold';
+    font-family: 'Open Sans';
+    font-weight: 600;
 }
 
 .color-new {
@@ -325,7 +356,7 @@ header nav ul:nth-of-type(2) li a {
     color: white;
     font-size: 13px;
     line-height: 20px;
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans';
 }
 
 .btn-view a {
@@ -358,11 +389,12 @@ label {
 
 .find-local-text h1 {
     color: white;
-    font-family: 'OpenSans-Bold';
+    font-family: 'Open Sans';
 }
 
 .find-local-text p {
     color: white;
+    font-family: 'Open Sans';
 }
 
 .fa-map-marker-alt {
@@ -382,6 +414,8 @@ label {
     outline: none;
     margin-bottom: 30px;
     cursor: pointer;
+    font-family: 'Open Sans';
+    letter-spacing: 0.2;
 }
 
 .new-scroll .item-slider {
@@ -464,6 +498,7 @@ label {
 
 .footer a {
     color: white;
+    font-family: 'Open Sans';
 }
 
 .wrapper {
@@ -499,7 +534,7 @@ label {
     color: black;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'OpenSans-Bold';
+    font-family: 'Open Sans';
 }
 
 /* .fix-bot .stick::before{
@@ -558,12 +593,12 @@ label {
     font-size: 18px;
     color: white;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     padding-left: 110px;
     display: table-cell;
     height: 70px;
     vertical-align: middle;
-    font-family: 'OpenSans-Bold';
+    font-family: 'Open Sans';
     text-decoration: none;
 }
 
@@ -650,7 +685,8 @@ label {
 
 #menu span {
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: 'Open Sans';
 }
 
 .swiper-wrapper li {
@@ -678,8 +714,9 @@ label {
     font-weight: bold;
     height: 70px;
     vertical-align: middle;
-    font-family: 'OpenSans-Bold';
+    font-family: 'Open Sans';
     text-decoration: none;
+    font-weight: 600;
 }
 
 .swiper-wrapper img{
@@ -709,12 +746,21 @@ label {
     font-weight: bold;
     height: 70px;
     vertical-align: middle;
-    font-family: 'OpenSans-Bold';
+    font-family: 'Open Sans';
     text-decoration: none;
+    font-weight: 600;
 }
 .wrapper-3 .swiper-wrapper li{
     background: white;
     border-top: 1px solid #efefef;
     border-left: 1px solid #efefef;
     border-right: 1px solid #efefef;
+}
+.active-2{
+    background: #323232 !important;
+    color: white !important;
+}
+.wrapper-3 .swiper-wrapper img {
+    width: auto;
+    height: auto;
 }

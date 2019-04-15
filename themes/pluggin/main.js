@@ -68,6 +68,12 @@ $(document).ready(function () {
             extensions: ["position-right"]
         });
     });
+    $('#menu li a').click(function () {
+
+        //console.log("Clicked");
+        $('#menu li a.active-2').removeClass('active-2');
+        $(this).addClass('active-2');
+    });
     // $(".poi").on('mouseenter mouseleave', function () {
     //     $(this).find('.gray-overlay').fadeToggle(500);
     // });

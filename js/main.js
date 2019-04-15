@@ -63,7 +63,11 @@ $(document).ready(function () {
     $(".aaa").mouseleave(function () {
         $(".bbb").css("opacity", 1);
     })
-    
+    $(function () {
+        $('nav#menu').mmenu({
+            extensions: ["position-right"]
+        });
+    });
     // $(".poi").on('mouseenter mouseleave', function () {
     //     $(this).find('.gray-overlay').fadeToggle(500);
     // });

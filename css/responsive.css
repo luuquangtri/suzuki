@@ -17,59 +17,82 @@
     .lSSlideOuter .lSPager.lSGallery {
         display: none !important;
     }
-    .res a{
+    .res a {
         font-size: 13px;
     }
-    .contact a{
+    .contact a {
         font-size: 13px;
     }
-    .lien-he a{
+    .lien-he a {
         font-size: 13px;
     }
-    .mobile-menu{
+    .mobile-menu {
         display: block;
     }
-    header nav ul:nth-of-type(1) img{
+    header nav ul:nth-of-type(1) img {
         width: 50px;
     }
-    label{
+    label {
         padding: 8px;
     }
 }
 
-@media screen  and (min-width: 240px) and (max-width: 768px)  {
+@media screen and (min-width: 240px) and (max-width: 768px) {
     .fix-bot {
         display: none !important;
     }
     .find-local-text h1 {
         font-size: 20px;
     }
-    
     .content-nd h1 {
-        font-size: 25px;
+        font-size: 23px;
     }
     .mo-ta a:nth-child(1) {
         font-size: 1.5rem;
     }
-    
-    .res{
+    .res {
         width: 56%;
         /* position: relative; */
     }
-   
-    .res a:nth-child(1){
+    .res a:nth-child(1) {
         font-weight: bold;
     }
-    .contact{
+    .contact {
         width: 44%;
         text-align: left;
         /* position: absolute; */
     }
-    .btn-menu{
+    .btn-menu {
         display: block;
         top: calc(30% + 13px);
         transform: translateY(-50%);
-        right: 0;
+        right: 10px;
     }
-    
+    #menu span {
+        /* display: block; */
+        text-align: right;
+    }
+    #menu img {
+        width: 45%;
+    }
+    .slide-2-mobile {
+        display: block;
+    }
+    .swiper-wrapper li.test-drive a {
+        font-size: 15px;
+    }
+    .swiper-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .discription h4{
+        font-size: 18px;
+    }
+    .wrapper {
+        padding-bottom: 5.1em;
+    }
+    .slide-3-mobile{
+        display: block;
+    }
 }

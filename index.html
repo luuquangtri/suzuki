@@ -7,16 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Suzuki.vn</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/lightslider.min.css">
-    <link rel="stylesheet" href="css/jquery.mobile-menu.css">
-    <link rel="stylesheet" href="css/site-icons.css">
     <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/jquery.mmenu.css">
+    <link rel="stylesheet" href="css/jquery.mmenu.positioning.css">
+    <link rel="stylesheet" href="css/site-pack.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -24,6 +24,36 @@
 <body>
     <div class="wrapper">
         <div class="header">
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><span>Sản phẩm</span>
+                        <ul>
+                            <li><a href="#">Practial city car</a></li>
+                            <li><a href="#">Practial city car</a></li>
+                            <li><a href="#">Practial city car</a></li>
+                            <li><a href="#">Practial city car</a></li>
+                            <li><a href="#">Practial city car</a></li>
+                            <li><a href="#">Practial city car</a></li>
+                            <li><a href="#">Practial city car</a></li>
+                            <!-- <li><span>The team</span>
+                                        <ul>
+                                            <li><a href="#about/team/management">Management</a></li>
+                                            <li><a href="#about/team/sales">Sales</a></li>
+                                            <li><a href="#about/team/development">Development</a></li>
+                                        </ul>
+                                    </li> -->
+                            <!-- <li><a href="#about/address">Our address</a></li> -->
+                        </ul>
+                    </li>
+                    <li><a href="#">Mua xe</a></li>
+                    <li><a href="#">Đại lý</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
             <div class="container">
                 <header>
                     <h1><a href="#" class="logo-content"><img src="https://www.globalsuzuki.com/img/common/logo_img.gif"
@@ -32,7 +62,8 @@
                         <ul class="menu-lv1">
                             <li><a href="#">DOANH NGHIỆP</a></li>
                             <li><a href="#">QUAN HỆ ĐẦU TƯ</a></li>
-                            <li class="border-two"><a href="#"><img src="https://www.globalsuzuki.com/img/common/icon_img.gif">LIÊN
+                            <li class="border-two"><a href="#"><img
+                                        src="https://www.globalsuzuki.com/img/common/icon_img.gif">LIÊN
                                     KẾT
                                     TOÀN CẦU</a></li>
                             <li><a href="#">SITEMAP</a></li>
@@ -84,94 +115,11 @@
                             <li><a href="#">liên hệ</a></li>
                         </ul>
                         <!-- menu mobile -->
-                        <div id="overlay"></div>
-                        <div id="page">
-                            <div class="mm-toggle-wrap">
-                                <div class="mm-toggle">
-                                    <i class="fas fa-bars"></i>
-                                </div>
-                            </div>
-                            <div class="container">
+                        <div class="main-header">
+                            <div class="btn-menu">
+                                <a href="#menu" class="btn-click"><span></span></a>
                             </div>
                         </div>
-                        <div id="mobile-menu">
-                            <ul>
-                                <li>
-                                    <div class="mm-search">
-                                        <!-- <form id="search" name="search">
-                                            <div class="input-group">
-                                                <div class="input-group-btn">
-                                                    <button class="btn btn-default" type="submit"><i class="fas fa-search-plus"></i></button>
-                                                </div>
-                                                <input type="text" class="form-control simple" placeholder="Search ..."
-                                                    name="srch-term" id="srch-term">
-                                            </div>
-                                        </form> -->
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="home">
-                                        <a href="#"><i class="fas fa-home"></i>giới thiệu</a>
-                                    </div>
-                                </li>
-                                <li><a href="#">sản phẩm</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#" class="item-sub">
-                                                <img src="images/submenu/xe1.png" alt="" class="img-fluid">
-                                                <span>Practial city car</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="item-sub">
-                                                <img src="images/submenu/xe1.png" alt="" class="img-fluid">
-                                                <span>Practial city car</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="item-sub">
-                                                <img src="images/submenu/xe1.png" alt="" class="img-fluid">
-                                                <span>Practial city car</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="item-sub">
-                                                <img src="images/submenu/xe1.png" alt="" class="img-fluid">
-                                                <span>Practial city car</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="item-sub">
-                                                <img src="images/submenu/xe1.png" alt="" class="img-fluid">
-                                                <span>Practial city car</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="item-sub">
-                                                <img src="images/submenu/xe1.png" alt="" class="img-fluid">
-                                                <span>Practial city car</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="item-sub">
-                                                <img src="images/submenu/xe1.png" alt="" class="img-fluid">
-                                                <span>Practial city car</span>
-                                            </a>
-                                        </li>
-                                        <!-- <li><a href="#">Our Values</a></li>
-                    <li><a href="#">Leadership</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Events</a> -->
-                                </li>
-                            </ul>
-                            </li>
-                            <li><a href="#">mua xe</a></li>
-                            <li><a href="#">đại lý</a></li>
-                            <li><a href="#">dịch vụ</a></li>
-                            <li><a href="#">tin tức</a></li>
-                            <li><a href="#">liên hệ</a></li>
-                            </ul>
-                        </div> <!-- /#rmm   -->
                     </nav>
                 </header>
 
@@ -225,7 +173,8 @@
                         <div class="col-md-1"></div>
                         <div class="col-md-1"></div>
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" class="images-fix text-center">
+                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
+                                class="images-fix text-center">
                                 <a href=""><img src="images/banner/1.png" alt="" class="img-fluid"></a>
                             </div>
                             <!-- <a href=""><img src="images/banner/1.png" alt="" class="img-fluid" data-aos="flip-up"></a> -->
@@ -239,7 +188,8 @@
 
 
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" class="images-fix text-center">
+                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
+                                class="images-fix text-center">
                                 <a href=""><img src="images/banner/2.png" alt="" class="img-fluid"></a>
                             </div>
 
@@ -261,7 +211,8 @@
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" class="images-fix text-center">
+                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
+                                class="images-fix text-center">
                                 <a href=""><img src="images/banner/3.png" alt="" class="img-fluid"></a>
                             </div>
 
@@ -275,7 +226,8 @@
                         <div class="col-md-1"></div>
                         <div class="col-md-1"></div>
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" class="images-fix text-center">
+                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
+                                class="images-fix text-center">
                                 <a href=""><img src="images/banner/4.png" alt="" class="img-fluid"></a>
                             </div>
 
@@ -297,7 +249,8 @@
                         triển</h4>
                     <div class="row">
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" class="images-fix text-center">
+                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
+                                class="images-fix text-center">
                                 <a href=""><img src="images/banner/5.png" alt="" class="img-fluid"></a>
                             </div>
 
@@ -310,7 +263,8 @@
                         </div>
                         <!-- <div class="col-md-1"></div> -->
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" class="images-fix text-center">
+                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
+                                class="images-fix text-center">
                                 <a href=""><img src="images/banner/6.png" alt="" class="img-fluid"></a>
                             </div>
 
@@ -323,7 +277,8 @@
                         </div>
                         <!-- <div class="col-md-1"></div> -->
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" class="images-fix text-center">
+                            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
+                                class="images-fix text-center">
                                 <a href=""><img src="images/banner/7.png" alt="" class="img-fluid"></a>
                             </div>
 
@@ -421,16 +376,19 @@
                 <div class=" container ">
                     <div class="icon-locac row">
                         <div class="col-md-5"></div>
-                        <div class="col-md-2 text-center" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
+                        <div class="col-md-2 text-center" data-aos="fade-up" data-aos-delay="500"
+                            data-aos-duration="500">
                             <a href=""><i class="fas fa-map-marker-alt"></i></a>
                         </div>
                         <div class="col-md-5"></div>
                     </div>
-                    <div class="find-local-text text-center" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
+                    <div class="find-local-text text-center" data-aos="fade-up" data-aos-delay="500"
+                        data-aos-duration="500">
                         <h1>tìm đại lý</h1>
                         <p>Nhập mã bưu điện hoặc thị trấn đầy đủ của bạn để tìm đại lý gần nhất đối với bạn</p>
                     </div>
-                    <div class="form-search text-center" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
+                    <div class="form-search text-center" data-aos="fade-up" data-aos-delay="500"
+                        data-aos-duration="500">
                         <label for=""><img src="images/banner/icon-local.png" alt=""></label>
                         <input type="text" placeholder="Nhập mã hoặc thị trấn">
                     </div>
@@ -494,7 +452,8 @@
                         </div>
                         <div class="col-md-4">
                             <div class="line-footer"><span></span></div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.346192192888!2d106.67070031419385!3d10.784774992315855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed6843feab7%3A0x75f21daeeb4c6207!2zMTgzIFRy4bqnbiBWxINuIMSQYW5nLCBQaMaw4budbmcgMTEsIFF14bqtbiAzLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1552804913395"
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.346192192888!2d106.67070031419385!3d10.784774992315855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed6843feab7%3A0x75f21daeeb4c6207!2zMTgzIFRy4bqnbiBWxINuIMSQYW5nLCBQaMaw4budbmcgMTEsIFF14bqtbiAzLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1552804913395"
                                 width="370" height="200" class="map-location" frameborder="0" style="border:0"
                                 allowfullscreen></iframe>
                         </div>
@@ -551,15 +510,24 @@
     </div>
 
     <!-- import lib -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="themes/bootstrap.min.js"></script>
+    <script src="themes/bootstrap.bundle.min.js"></script>
+    <script src="themes/popper.js"></script>
+    <script src="js/jquery.mmenu.js"></script>
     <script src="js/lightslider.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="js/jquery.mobile-menu.min.js"></script>
     <script src="js/main.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $('nav#menu').mmenu({
+                extensions: ["position-left"]
+            });
+        });
     </script>
 </body>
 

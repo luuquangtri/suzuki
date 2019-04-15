@@ -37,7 +37,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media screen  and (min-width: 240px) and (max-width: 768px)  {
     .fix-bot {
         display: none !important;
     }
@@ -65,6 +65,11 @@
         text-align: left;
         /* position: absolute; */
     }
-    
+    .btn-menu{
+        display: block;
+        top: calc(30% + 13px);
+        transform: translateY(-50%);
+        right: 0;
+    }
     
 }

@@ -130,10 +130,11 @@ header nav ul:nth-of-type(2) li a {
     font-style: normal;
 }
 
-header nav ul:nth-of-type(2) li a:hover{
+header nav ul:nth-of-type(2) li a:hover {
     color: #00ffff;
     transition: 0.6s;
 }
+
 .clear-fix {
     clear: both;
 }
@@ -255,9 +256,11 @@ header nav ul:nth-of-type(2) li a:hover{
 .slide-2 img {
     margin-right: 10px;
 }
-.content-nd{
+
+.content-nd {
     position: relative;
 }
+
 .content-nd h1 {
     text-align: center;
     text-transform: uppercase;
@@ -265,9 +268,9 @@ header nav ul:nth-of-type(2) li a:hover{
     font-family: 'Open Sans';
     font-style: normal;
     color: black;
-    
 }
-.line-height{
+
+.line-height {
     position: absolute;
     width: 35%;
     background: #efefef;
@@ -275,7 +278,8 @@ header nav ul:nth-of-type(2) li a:hover{
     left: 32%;
     top: 60px;
 }
-.line-height span{
+
+.line-height span {
     position: absolute;
     width: 70px;
     height: 4px;
@@ -283,6 +287,7 @@ header nav ul:nth-of-type(2) li a:hover{
     background: #003145;
     left: 43%;
 }
+
 .discription a img:hover {
     transform: scale(1.1);
     transition: 0.6s ease-out;
@@ -327,10 +332,12 @@ header nav ul:nth-of-type(2) li a:hover{
     font-style: italic;
     font-family: 'Open Sans';
 }
-.discription h4{
+
+.discription h4 {
     font-family: 'Open Sans';
     font-weight: 500;
 }
+
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
     display: none;
 }
@@ -362,8 +369,14 @@ header nav ul:nth-of-type(2) li a:hover{
 .btn-view a {
     text-transform: uppercase;
     color: black;
+    border: 1px solid;
+    padding: 5px 15px;
 }
-
+.btn-view a:hover{
+    background: #000033;
+    color: white;
+    transition: 0.4s;
+}
 .find-local {
     background: #000033;
     border-bottom: 1px solid white;
@@ -502,7 +515,7 @@ label {
 }
 
 .wrapper {
-    padding-bottom: 5.5em;
+    padding-bottom: 4.5em;
 }
 
 .fix-bot {
@@ -514,7 +527,8 @@ label {
     color: black;
     text-align: center;
     z-index: 10000000;
-    padding: 15px 0;
+    padding: 7px 0;
+    padding-bottom: 5px;
     /* border-top: 1px solid gray; */
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
@@ -553,7 +567,7 @@ label {
     position: absolute;
     width: 0;
     height: 5px;
-    bottom: -15px;
+    bottom: -8px;
     background: #00aeef;
     content: '';
     transform: translate(-50%, -50%);
@@ -580,14 +594,36 @@ label {
 .images-fix img:nth-child(1) {
     max-width: 85% !important;
 }
-
 .quick-button li {
     width: 25%;
     /* box-shadow: 0 -4px 0 #cdcdcd inset; */
     float: left;
     list-style: none;
+    position: relative;
 }
-
+.quick-button .find-dealer{
+    border-left: 1px solid #efefef;
+}
+.quick-button .price-calculator{
+    border-left: 1px solid #efefef;
+}
+.quick-button .test-drive{
+    border-left: 1px solid #efefef;
+}
+.quick-button li::before{
+    position: absolute;
+    width: 0;
+    height: 5px;
+    bottom: -3px;
+    background: #00ffff;
+    content: '';
+    transform: translate(-50%, -50%);
+    transition: ease-out 0.3s all;
+    left: 50%;
+}
+.quick-button li:hover::before{
+    width: 100%;
+}
 .quick-button li a {
     background: url(../images/ez.png) no-repeat;
     font-size: 18px;
@@ -719,26 +755,29 @@ label {
     font-weight: 600;
 }
 
-.swiper-wrapper img{
+.swiper-wrapper img {
     width: 40px;
     height: 40px;
 }
-.swiper-wrapper li{
+
+.swiper-wrapper li {
     text-align: center;
     padding-left: 5px;
     background: #003145;
 }
-.wrapper-3{
+
+.wrapper-3 {
     position: fixed;
     bottom: 0;
     z-index: 99999999;
     padding: 0;
     background: #FFF;
-    
 }
-.slide-3-mobile{
+
+.slide-3-mobile {
     display: none;
 }
+
 .wrapper-3 .swiper-wrapper li a {
     font-size: 18px;
     color: black;
@@ -750,17 +789,24 @@ label {
     text-decoration: none;
     font-weight: 600;
 }
-.wrapper-3 .swiper-wrapper li{
+
+.wrapper-3 .swiper-wrapper li {
     background: white;
     border-top: 1px solid #efefef;
     border-left: 1px solid #efefef;
     border-right: 1px solid #efefef;
 }
-.active-2{
+
+.active-2 {
     background: #323232 !important;
     color: white !important;
 }
+
 .wrapper-3 .swiper-wrapper img {
     width: auto;
     height: auto;
+}
+
+.lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover {
+    opacity: 0.5;
 }

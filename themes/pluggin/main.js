@@ -9,8 +9,9 @@ $(document).ready(function () {
         thumbItem: 9,
         slideMargin: 0,
         enableDrag: true,
-        speed: 500,
-        auto: false,
+        speed: 700,
+        pauseOnHover:true,
+        auto: true,
         loop: true,
         responsive: [
             {

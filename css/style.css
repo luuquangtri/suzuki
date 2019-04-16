@@ -630,7 +630,7 @@ label {
     color: white;
     text-transform: uppercase;
     font-weight: 600;
-    padding-left: 110px;
+    padding-left: 127px;
     display: table-cell;
     height: 70px;
     vertical-align: middle;
@@ -648,20 +648,20 @@ label {
 }
 
 .quick-button li.find-dealer a {
-    background-position: 45px 12px;
+    background-position: 65px 12px;
 }
 
 .quick-button li.find-dealer:hover a {
-    background-position: 45px -138px;
+    background-position: 65px -138px;
     color: #00ffff;
 }
 
 .quick-button li.price-calculator a {
-    background-position: 45px -898px;
+    background-position: 65px -898px;
 }
 
 .quick-button li.price-calculator:hover a {
-    background-position: 45px -1039px;
+    background-position: 65px -1039px;
     color: #00ffff;
 }
 

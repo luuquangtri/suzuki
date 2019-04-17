@@ -228,4 +228,10 @@
     .new h1 {
         font-size: 30px;
     }
+    .res {
+        padding-left: 15px;
+    }
+    .fix-mm{
+        margin-left: 0px;
+    }
 }

@@ -813,3 +813,14 @@ label {
 .lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover {
     opacity: 0.5;
 }
+
+
+.parallax {
+    background-image: url('../images/banner/ft1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    max-width: 100%;
+}

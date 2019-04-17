@@ -10,7 +10,7 @@ $(document).ready(function () {
         slideMargin: 0,
         enableDrag: true,
         speed: 700,
-        pauseOnHover:true,
+        pauseOnHover: true,
         auto: true,
         loop: true,
         responsive: [

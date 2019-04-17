@@ -4,6 +4,9 @@
     .stick a {
         font-size: 10px;
     }
+    .parallax{
+        background-attachment: scroll;
+    }
     .map-location {
         width: 100%;
     }

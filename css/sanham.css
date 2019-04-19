@@ -9,11 +9,12 @@
 .navi .nav-item .nav-link {
     color: white;
     font-family: 'Open Sans';
+    padding: 5px 17px;
 }
 
 .navi .nav-item .nav-link img {
     display: block;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 .navi ul {
@@ -47,7 +48,7 @@
     color: white;
     margin-top: 0px;
     display: block;
-    padding: 6px 0;
+    /* padding: 6px 0; */
     /* padding-right: 28px; */
     background: #006699;
     /* width: 0; */
@@ -63,7 +64,7 @@
     position: absolute;
     /* height: 53px; */
     top: 0;
-    border-top: 87px solid #006699;
+    border-top: 78px solid #006699;
     border-right: 87px solid transparent;
 }
 
@@ -363,4 +364,8 @@
     color: white;
     filter: brightness(300%);
     font-family: 'Segoe UI'
+}
+
+.menu-toggle{
+    display: none;
 }

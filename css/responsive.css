@@ -1,10 +1,8 @@
-
-
 @media (max-width: 1200px) {
     .stick a {
         font-size: 10px;
     }
-    .parallax{
+    .parallax {
         background-attachment: scroll;
     }
     .map-location {
@@ -231,7 +229,29 @@
     .res {
         padding-left: 15px;
     }
-    .fix-mm{
+    .fix-mm {
         margin-left: 0px;
+    }
+    .navi .nav {
+        display: none;
+    }
+    .clear{
+        clear: both;
+    }
+    .navi .nav-link2 {
+        font-size: 27px;
+    }
+    .navi .nav-link2::before {
+        border-top: 40px solid #006699;
+        border-right: 40px solid transparent;
+    } 
+    .menu-toggle {
+        float: right;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .menu-toggle{
+        margin-top: -40px;
+        display: block;
     }
 }

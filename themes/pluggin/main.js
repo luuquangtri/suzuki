@@ -75,6 +75,13 @@ $(document).ready(function () {
         $('#menu li a.active-2').removeClass('active-2');
         $(this).addClass('active-2');
     });
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 750) {
+            $('.navi').addClass('fixed-2');
+        } else {
+            $('.navi').removeClass('fixed-2');
+        }
+    })
     // $(".poi").on('mouseenter mouseleave', function () {
     //     $(this).find('.gray-overlay').fadeToggle(500);
     // });

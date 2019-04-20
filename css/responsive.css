@@ -306,4 +306,11 @@
         display: block;
         margin-top: 20px;
     }
+    .vehicle-call-to-action{
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    .vehicle-call-to-action a::after{
+        left: 90%;
+    }
 }

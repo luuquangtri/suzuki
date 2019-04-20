@@ -82,7 +82,13 @@ $(document).ready(function () {
             $('.navi').removeClass('fixed-2');
         }
     })
-    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.navi-2').addClass('fixed-2');
+        } else {
+            $('.navi-2').removeClass('fixed-2');
+        }
+    })
     $(".toggle-next ").click(function () {
         event.preventDefault();
         $(this).next().slideToggle();

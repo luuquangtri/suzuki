@@ -232,16 +232,16 @@
     .fix-mm {
         margin-left: 0px;
     }
-    .navi .nav {
+    .navi .nav,.navi-2 .nav {
         display: none;
     }
     .clear{
         clear: both;
     }
-    .navi .nav-link2 {
+    .navi .nav-link2,.navi-2 .nav-link2 {
         font-size: 27px;
     }
-    .navi .nav-link2::before {
+    .navi-2 .nav-link2::before {
         border-top: 40px solid #006699;
         border-right: 40px solid transparent;
     } 
@@ -253,5 +253,15 @@
     .menu-toggle{
         margin-top: -40px;
         display: block;
+    }
+
+    .navi{
+        display: none;
+    }
+    .navi-2{
+        display: block;
+    }
+    .mode h1,.exterior h1,.furniture h1,.specifications h1{
+        font-size: 2rem;
     }
 }

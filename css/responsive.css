@@ -127,6 +127,35 @@
     .social-icons {
         margin: 0;
     }
+    .navi .nav,.navi-2 .nav {
+        display: none;
+    }
+    .clear{
+        clear: both;
+    }
+    .navi .nav-link2,.navi-2 .nav-link2 {
+        font-size: 27px;
+    }
+    .navi-2 .nav-link2::before {
+        border-top: 40px solid #006699;
+        border-right: 40px solid transparent;
+    } 
+    .menu-toggle {
+        float: right;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .menu-toggle{
+        margin-top: -40px;
+        display: block;
+    }
+
+    .navi{
+        display: none;
+    }
+    .navi-2{
+        display: block;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -261,7 +290,10 @@
     .navi-2{
         display: block;
     }
-    .mode h1,.exterior h1,.furniture h1,.specifications h1{
-        font-size: 2rem;
+    .mode h1,.exterior h1,.furniture h1,.specifications h1,.price-list h1{
+        font-size: 1.5rem;
+    }
+    .section-title{
+        font-size: 20px;
     }
 }

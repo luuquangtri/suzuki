@@ -375,3 +375,23 @@
 .mfp-figure small{
     display: none;
 }
+.menu-mb-navi{
+    padding: 0;
+    display: none;
+}
+.menu-mb-navi li{
+    list-style: none;
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #e5e3e3;
+}
+.menu-mb-navi li:nth-child(7){
+    margin-bottom: 10px;
+}
+.menu-mb-navi li a{
+    color: white;
+    text-transform: uppercase;
+}
+.show{
+    display: block;
+}

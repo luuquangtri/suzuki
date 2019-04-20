@@ -83,7 +83,7 @@ $(document).ready(function () {
         }
     })
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 270) {
             $('.navi-2').addClass('fixed-2');
         } else {
             $('.navi-2').removeClass('fixed-2');
@@ -113,6 +113,13 @@ $(document).ready(function () {
             }
         });
     });
+    $(".menu-toggle").click(function(){
+        $(".menu-mb-navi").toggle();
+      });
+    // $(".menu-toggle").click(function () {
+    //     // $('menu-mb-navi').removeClass('show');
+    //     $('menu-mb-navi').addClass('show');
+    // });
     // $(".poi").on('mouseenter mouseleave', function () {
     //     $(this).find('.gray-overlay').fadeToggle(500);
     // });

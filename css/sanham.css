@@ -435,3 +435,20 @@
         opacity: 1;
     }
 }
+.owl-carousel .owl-item img:hover {
+    transform: scale(1.1);
+    transition: ease-in 0.6s all;
+}
+.item{
+    overflow: hidden;
+}
+.galary-mobile{
+    display: none;
+}
+.owl-carousel .owl-item img{
+    height: 200px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #3399cc;
+    outline: none;
+}

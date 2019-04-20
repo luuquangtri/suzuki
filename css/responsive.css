@@ -290,10 +290,20 @@
     .navi-2{
         display: block;
     }
+    .mode h1,.exterior,.furniture,.specifications,.price-list{
+        background-attachment: scroll;
+    }
     .mode h1,.exterior h1,.furniture h1,.specifications h1,.price-list h1{
         font-size: 1.5rem;
     }
     .section-title{
         font-size: 20px;
+    }
+    .galary{
+        display: none;
+    }
+    .galary-mobile{
+        display: block;
+        margin-top: 20px;
     }
 }

@@ -57,6 +57,24 @@ $(document).ready(function () {
             }
         }
     })
+    $('.galary-mb-mb').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        // autoplay:true,
+        responsive: {
+            0: {
+                items: 2
+            },
+            
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })
     $(".aaa").mouseover(function () {
         $(".bbb").css("opacity", 0.2);
         // $(this).css("opacity", 1);

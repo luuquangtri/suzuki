@@ -313,4 +313,7 @@
     .vehicle-call-to-action a::after{
         left: 90%;
     }
+    .bang-gia td{
+        padding: 6px 3px;
+    }
 }

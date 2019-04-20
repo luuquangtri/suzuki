@@ -452,3 +452,29 @@
     background: #3399cc;
     outline: none;
 }
+
+/* bang giá */
+.bang-gia td {
+    padding: 6px 10px;
+}
+.bang-gia td .title-tb{
+    font-weight: bold;
+    color: red;
+}
+
+.bang-gia tbody tr:nth-of-type(odd) {
+    background: #e7e7e7;
+}
+.bang-gia a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans';
+}
+.bang-gia tbody tr:hover {
+    background: #dadada;
+}
+.note span{
+    font-size: 10pt;
+    font-style: italic;
+    font-family: 'Open Sans';
+}

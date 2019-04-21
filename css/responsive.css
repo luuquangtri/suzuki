@@ -316,4 +316,19 @@
     .bang-gia td{
         padding: 6px 3px;
     }
+    .new-updates h1{
+        font-size: 1.5rem;
+    }
+    .mo-ta-new h3 {
+        font-size: 12px;
+    }
+    .mo-ta-new p{
+        font-size: 12px;
+    }
+    .mo-ta-new p{
+        padding: 0;
+    }
+    .mo-ta-new{
+        padding-bottom: 10px;
+    }
 }

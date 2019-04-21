@@ -94,7 +94,7 @@
 
 .mode h1 {
     font-weight: bold;
-    color: white;
+    color: #3399cc;
     font-size: 3rem;
     filter: brightness(300%);
     font-family: 'Open Sans';
@@ -127,7 +127,7 @@
 
 .exterior h1 {
     font-weight: bold;
-    color: white;
+    color: #3399cc;
     font-size: 3rem;
     font-family: 'Open Sans';
     filter: brightness(300%);
@@ -222,7 +222,7 @@
 
 .furniture h1 {
     font-weight: bold;
-    color: white;
+    color: #3399cc;
     font-size: 3rem;
     filter: brightness(300%);
     font-family: 'Open Sans';
@@ -263,7 +263,7 @@
 
 .specifications h1 {
     font-weight: bold;
-    color: white;
+    color: #3399cc;
     font-size: 3rem;
     filter: brightness(300%);
     font-family: 'Open Sans';
@@ -355,7 +355,7 @@
 
 .price-list h1 {
     font-weight: bold;
-    color: white;
+    color: #3399cc;
     font-size: 3rem;
     filter: brightness(300%);
     font-family: 'Open Sans';
@@ -391,15 +391,16 @@
     padding: 5px 0;
     border-bottom: 1px solid #e5e3e3;
 }
+
 .menu-mb-navi li a {
     color: white;
     text-transform: uppercase;
 }
-.menu-mb-navi li a img{
+
+.menu-mb-navi li a img {
     width: 30px;
     margin-right: 20px;
 }
-
 
 @-webkit-keyframes opacity-animation {
     0% {
@@ -436,29 +437,36 @@
         opacity: 1;
     }
 }
+
 .owl-carousel .owl-item img:hover {
     transform: none;
     transition: none;
 }
-.item{
+
+.item {
     overflow: hidden;
 }
-.galary-mobile{
+
+.galary-mobile {
     display: none;
 }
+
 /* .owl-carousel .owl-item img{
     height: 200px;
 } */
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #3399cc;
     outline: none;
 }
 
 /* bang giá */
+
 .bang-gia td {
     padding: 6px 10px;
 }
-.bang-gia td .title-tb{
+
+.bang-gia td .title-tb {
     font-weight: bold;
     color: red;
 }
@@ -466,24 +474,29 @@
 .bang-gia tbody tr:nth-of-type(odd) {
     background: #e7e7e7;
 }
-.bang-gia a{
+
+.bang-gia a {
     text-decoration: none;
     color: black;
     font-family: 'Open Sans';
 }
+
 .bang-gia tbody tr:hover {
     background: #dadada;
 }
-.note span{
+
+.note span {
     font-size: 10pt;
     font-style: italic;
     font-family: 'Open Sans';
 }
-.new-updates h1{
+
+.new-updates h1 {
     font-size: 30px;
     font-family: 'Open Sans';
 }
-.mo-ta-new h3{
+
+.mo-ta-new h3 {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
@@ -493,7 +506,8 @@
     margin: 0;
     font-family: 'Open Sans';
 }
-.mo-ta-new p{
+
+.mo-ta-new p {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
@@ -505,45 +519,50 @@
     padding-bottom: 10px;
 }
 
-.new-sp a{
+.new-sp a {
     text-decoration: none;
     color: black;
 }
 
-.mo-ta-new{
+.mo-ta-new {
     padding-top: 10px;
     /* padding-bottom: 5px; */
     background-color: #EEE;
     /* border-left: 1px solid #efefef; */
     padding-left: 5px;
 }
-.qwe{
+
+.qwe {
     display: inline-block;
-  transition-duration: 0.3s;
-  transition-property: transform;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.qwe:hover{
+
+.qwe:hover {
     transform: translateY(-10px);
 }
-.qwe:hover h3{
+
+.qwe:hover h3 {
     color: #006699;
 }
-.point{
+
+.point {
     border-top: 1px solid #CBCBCB;
     margin: 15px 25px 20px;
     padding-top: 5px;
     min-height: 186px;
 }
-.point p{
+
+.point p {
     margin: 13px 0px;
     font-size: 12px;
     color: black;
 }
 
-.point p:before{
+.point p:before {
     content: "■";
     padding-right: 5px;
     position: relative;
@@ -552,18 +571,21 @@
     font-family: sans-serif;
 }
 
-.mode-s{
+.mode-s {
     background-color: #EEE;
     box-shadow: 5px 5px 10px -3px;
 }
-.mode-s:hover{
+
+.mode-s:hover {
     transform: translateY(-10px);
     transition: 0.5s all;
 }
-.mode-s a{
+
+.mode-s a {
     text-decoration: none;
 }
-.phienban .name{
+
+.phienban .name {
     color: #343434;
     font-weight: 800;
     font-size: 35px;
@@ -571,15 +593,16 @@
     margin: 20px 25px 0;
     padding-top: 20px;
 }
-.phienban .price{
+
+.phienban .price {
     color: #003145;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     margin: 0px 25px;
-
 }
-.phienban .price small{
+
+.phienban .price small {
     color: #696969;
     font-weight: 400;
     font-size: 12px;
@@ -587,3 +610,160 @@
     float: right;
     line-height: 24px;
 }
+
+/* fix noi that */
+
+.test {
+    position: relative;
+    display: block !important;
+    overflow: hidden;
+    width: 100%;
+    height: 60vw;
+    background-image: url('../images/san pham/6958_suzuki_celerio_interior_sz4_r1.jpg');
+    background-size: 100vw 60vw;
+    text-align: center;
+}
+label{
+    background: transparent
+}
+input {
+    display: none;
+}
+
+p {
+    margin: 0;
+}
+
+.button {
+    display: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #d32f2f;
+    display: block;
+    padding: 8px 16px;
+    border-radius: 100%;
+    cursor: pointer;
+    animation: fadein 0.5s;
+    animation: pulse 1.5s infinite;
+}
+
+.content {
+    background: white;
+    padding: 8px 12px;
+    text-align: center;
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    top: 8vw;
+    height: 40vw;
+    border-radius: 8px;
+    box-shadow: 0 4px 2px -2px rgba(211, 47, 47, 0);
+}
+
+.cross {
+    font-weight: bold;
+}
+
+.bodyCopy {
+    margin-top: 18px;
+}
+
+#b1 {
+    position: absolute;
+    left: 49vw;
+    top: 21vw;
+}
+
+#b2 {
+    position: absolute;
+    left: 51vw;
+    top: 29vw;
+}
+
+#b3 {
+    position: absolute;
+    left: 70vw;
+    top: 56vw;
+}
+#b4 {
+    position: absolute;
+    left: 49vw;
+    top: 51vw;
+
+}
+
+#input1:checked~#content1 {
+    display: block !important;
+    animation: fadein 0.5s;
+}
+
+#input2:checked~#content2 {
+    display: block !important;
+    animation: fadein 0.5s;
+}
+
+#input3:checked~#content3 {
+    display: block !important;
+    animation: fadein 0.5s;
+}
+#input4:checked~#content4 {
+    display: block !important;
+    animation: fadein 0.5s;
+}
+
+input:checked~label .button {
+    display: none !important;
+    animation: fadeout 0.5s;
+}
+
+.button:hover {
+    color: #d32f2f;
+    background: white;
+}
+
+.cta {
+    display: inline-block;
+    background: #d32f2f;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 48px;
+    border-radius: 24px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta:hover {
+    text-decoration: underline !important;
+    box-shadow: 0 0 0 6px rgba(211, 46, 46, 0.4);
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 0 0px rgba(211, 47, 47);
+    }
+    to {
+        box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    }
+}
+
+/* end */

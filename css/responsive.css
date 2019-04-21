@@ -331,4 +331,11 @@
     .mo-ta-new{
         padding-bottom: 10px;
     }
+    .button{
+        font-size: 6px;
+        padding: 5px 7px;
+    }
+    #b3{
+        top: 51vw;
+    }
 }

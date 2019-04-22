@@ -35,6 +35,30 @@ $(document).ready(function () {
             $('#image-gallery').removeClass('cS-hidden');
         }
     });
+    var swiper2 = new Swiper('.sub-tab-slider-2', {
+        slidesPerView: 4,
+        spaceBetween: 0,
+        // init: false,
+        loop: false,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            1024: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            640: {
+                slidesPerView: 1,
+            },
+            320: {
+                slidesPerView: 1,
+            }
+        }
+    });
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,

@@ -333,10 +333,31 @@
         font-size: 6px;
         padding: 5px 7px;
     }
+    #b1{
+        left: 46vw;
+    }
     #b3 {
         top: 50vw;
+        left: 45vw;
     }
     #b4{
         left: 60vw;
+    }
+    .content{
+        padding: 0px 6px;
+        height: 45vw;
+        top: 0;
+    }
+    .content img{
+        height: auto !important;
+    }
+    .point{
+        padding-bottom: 5px;
+    }
+    .bang-gia a{
+        font-size: 12px;
+    }
+    .bang-gia .gia{
+        font-size: 12px;
     }
 }

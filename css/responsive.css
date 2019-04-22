@@ -340,6 +340,7 @@
     }
     .mode h1, .exterior h1, .furniture h1, .specifications h1, .price-list h1 {
         font-size: 1.5rem;
+        padding-top: 1.5rem !important;
     }
     .section-title {
         font-size: 20px;
@@ -406,5 +407,14 @@
     }
     .bang-gia .gia{
         font-size: 12px;
+    }
+    .mode p, .exterior p, .furniture p, .specifications p, .price-list p{
+        font-size:12px;
+    }
+    .mode, .exterior, .furniture, .specifications, .price-list{
+        height: 200px;
+    }
+    .mode::before, .exterior::before, .furniture::before, .specifications::before, .price-list::before{
+        height: 200px;
     }
 }

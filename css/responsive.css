@@ -350,14 +350,21 @@
     }
     .galary-mobile {
         display: block;
-        margin-top: 20px;
+        margin-top: 10px;
+    }
+    .galary-mobile-2{
+        margin-top: 10px !important;
     }
     .vehicle-call-to-action {
         width: 100%;
         margin-right: 0 !important;
+        display: none;
     }
     .vehicle-call-to-action a::after {
         left: 90%;
+    }
+    .bang-gia{
+        margin-top: 10px;
     }
     .bang-gia td {
         padding: 6px 3px;
@@ -401,6 +408,7 @@
     }
     .point{
         padding-bottom: 5px;
+        margin-bottom: 0;
     }
     .bang-gia a{
         font-size: 12px;

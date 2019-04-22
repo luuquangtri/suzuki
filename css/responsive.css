@@ -1,3 +1,50 @@
+
+@media screen and (min-width: 1801px) and (max-width: 1921px){
+    #b1{
+        left: 33vw;
+    }
+    #b2{
+        left:30vw;
+    }
+    #b3 {
+        top: 50vw;
+        left: 29vw;
+    }
+    #b4{
+        left: 45vw;
+    }
+}
+@media screen and (min-width: 1501px) and (max-width: 1800px){
+    #b1{
+        left: 37vw;
+    }
+    #b2{
+        left:35vw;
+    }
+    #b3 {
+        top: 50vw;
+        left: 32vw;
+    }
+    #b4{
+        left: 45vw;
+    }
+}
+@media screen and (min-width: 1377px) and (max-width: 1500px){
+    #b1{
+        left: 40vw;
+    }
+    #b2{
+        left:40vw;
+    }
+    #b3 {
+        top: 50vw;
+        left: 39vw;
+    }
+    #b4{
+        left: 55vw;
+    }
+}
+
 @media (max-width: 1200px) {
     .stick a {
         font-size: 10px;

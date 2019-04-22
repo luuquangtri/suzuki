@@ -5,7 +5,9 @@
 .navi, .navi-2 {
     background: linear-gradient(to right, #006699, #38b7f7);
 }
-
+.close-item{
+    display: none !important;
+}
 .navi .nav-item .nav-link, .navi-2 .nav-item .nav-link {
     color: white;
     font-family: 'Open Sans';

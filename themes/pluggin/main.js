@@ -135,6 +135,10 @@ $(document).ready(function () {
     $(".menu-toggle").click(function(){
         $(".menu-mb-navi").toggle();
     });
+    $(".menu-mb-navi li a").click(function () {
+        $(".menu-mb-navi").addClass('.close-item');
+        $(".menu-mb-navi").toggle();
+    });
       
     $(document).ready(function () {
         // Add smooth scrolling to all links

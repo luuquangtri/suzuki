@@ -349,7 +349,7 @@
         top: 0;
     }
     .content img{
-        height: auto;
+        height: auto !important;
     }
     .point{
         padding-bottom: 5px;

@@ -667,6 +667,7 @@ p {
 
 .cross {
     font-weight: bold;
+    width: 100%;
 }
 
 .bodyCopy {

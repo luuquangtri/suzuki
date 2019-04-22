@@ -119,7 +119,7 @@ $(document).ready(function () {
         $(this).addClass('active-2');
     });
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 750) {
+        if ($(this).scrollTop() > 850) {
             $('.navi').addClass('fixed-2');
         } else {
             $('.navi').removeClass('fixed-2');

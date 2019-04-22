@@ -346,7 +346,7 @@
         font-size: 20px;
     }
     .galary {
-        display: none;
+        display: none; 
     }
     .galary-mobile {
         display: block;

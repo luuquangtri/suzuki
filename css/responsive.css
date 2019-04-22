@@ -1,47 +1,49 @@
-
-@media screen and (min-width: 1801px) and (max-width: 1921px){
-    #b1{
+@media screen and (min-width: 1800px) and (max-width: 1921px) {
+    #b1 {
         left: 33vw;
     }
-    #b2{
-        left:30vw;
+    #b2 {
+        left: 30vw;
     }
     #b3 {
-        top: 50vw;
+        top: 30vw;
         left: 29vw;
     }
-    #b4{
+    #b4 {
         left: 45vw;
     }
 }
-@media screen and (min-width: 1501px) and (max-width: 1800px){
-    #b1{
-        left: 37vw;
+
+@media screen and (min-width: 1501px) and (max-width: 1799px) {
+    #b1 {
+        left: 34vw;
     }
-    #b2{
-        left:35vw;
+    #b2 {
+        left: 35vw;
     }
     #b3 {
-        top: 50vw;
-        left: 32vw;
+        top: 32vw;
+        left: 34vw;
     }
-    #b4{
+    #b4 {
         left: 45vw;
     }
 }
-@media screen and (min-width: 1377px) and (max-width: 1500px){
-    #b1{
+
+@media screen and (min-width: 1377px) and (max-width: 1500px) {
+    #b1 {
         left: 40vw;
     }
-    #b2{
-        left:40vw;
+    #b2 {
+        left: 40vw;
     }
     #b3 {
-        top: 50vw;
+        top: 30vw;
         left: 39vw;
     }
-    #b4{
+    #b4 {
         left: 55vw;
+        top: 30vw;
     }
 }
 
@@ -346,13 +348,13 @@
         font-size: 20px;
     }
     .galary {
-        display: none; 
+        display: none;
     }
     .galary-mobile {
         display: block;
         margin-top: 10px;
     }
-    .galary-mobile-2{
+    .galary-mobile-2 {
         margin-top: 10px !important;
     }
     .vehicle-call-to-action {
@@ -363,7 +365,7 @@
     .vehicle-call-to-action a::after {
         left: 90%;
     }
-    .bang-gia{
+    .bang-gia {
         margin-top: 10px;
     }
     .bang-gia td {
@@ -388,41 +390,46 @@
         font-size: 6px;
         padding: 5px 7px;
     }
-    #b1{
+    #b1 {
         left: 46vw;
+        top: 27vw;
     }
     #b3 {
         top: 50vw;
         left: 45vw;
     }
-    #b4{
+    #b4 {
         left: 60vw;
     }
-    .content{
+    .content {
         padding: 0px 6px;
         height: 45vw;
         top: 0;
     }
-    .content img{
+    .content img {
         height: auto !important;
     }
-    .point{
+    .point {
         padding-bottom: 5px;
         margin-bottom: 0;
     }
-    .bang-gia a{
+    .bang-gia a {
         font-size: 12px;
     }
-    .bang-gia .gia{
+    .bang-gia .gia {
         font-size: 12px;
     }
-    .mode p, .exterior p, .furniture p, .specifications p, .price-list p{
-        font-size:12px;
+    .mode p, .exterior p, .furniture p, .specifications p, .price-list p {
+        font-size: 12px;
     }
-    .mode, .exterior, .furniture, .specifications, .price-list{
+    .mode, .exterior, .furniture, .specifications, .price-list {
         height: 200px;
     }
-    .mode::before, .exterior::before, .furniture::before, .specifications::before, .price-list::before{
+    .mode::before, .exterior::before, .furniture::before, .specifications::before, .price-list::before {
         height: 200px;
+    }
+    .test {
+        height: 60vw;
+        background-size: 100vw 60vw;
     }
 }

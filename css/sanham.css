@@ -626,11 +626,11 @@
     display: block !important;
     overflow: hidden;
     width: 100%;
-    height: 60vw;
+    height: 37vw;
     background-position: center;
     background-image: url('../images/san pham/6958_suzuki_celerio_interior_sz4_r1.jpg');
-    background-size: 100vw 60vw;
-    text-align: center;
+    background-size: 86vw 40vw;
+    text-align: center; 
 }
 label{
     background: transparent;
@@ -658,7 +658,7 @@ p {
 }
 
 .content {
-    background: white;
+    /* background: white;
     padding: 8px 12px;
     text-align: center;
     display: none;
@@ -668,7 +668,18 @@ p {
     top: 8vw;
     height: 40vw;
     border-radius: 8px;
-    box-shadow: 0 4px 2px -2px rgba(211, 47, 47, 0);
+    box-shadow: 0 4px 2px -2px rgba(211, 47, 47, 0); */
+    background: white;
+    padding: 8px 12px;
+    text-align: center;
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    top: 0vw;
+    height: 33vw;
+    border-radius: 8px;
+    box-shadow: 0 4px 2px -2px rgba(211, 47, 47,0);
 }
 
 .cross {
@@ -683,24 +694,24 @@ p {
 #b1 {
     position: absolute;
     left: 42vw;
-    top: 21vw;
+    top: 10vw;
 }
 
 #b2 {
     position: absolute;
     left: 44vw;
-    top: 29vw;
+    top: 16vw;
 }
 
 #b3 {
     position: absolute;
     left: 41vw;
-    top: 56vw;
+    top: 30vw;
 }
 #b4 {
     position: absolute;
     left: 49vw;
-    top: 51vw;
+    top: 30vw;
 
 }
 

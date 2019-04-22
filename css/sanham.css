@@ -627,7 +627,7 @@
 label{
     background: transparent;
 }
-input {
+.test input {
     display: none;
 }
 
@@ -695,26 +695,26 @@ p {
 
 }
 
-#input1:checked~#content1 {
+.test #input1:checked~#content1 {
     display: block !important;
     animation: fadein 0.5s;
 }
 
-#input2:checked~#content2 {
+.test #input2:checked~#content2 {
     display: block !important;
     animation: fadein 0.5s;
 }
 
-#input3:checked~#content3 {
+.test #input3:checked~#content3 {
     display: block !important;
     animation: fadein 0.5s;
 }
-#input4:checked~#content4 {
+.test #input4:checked~#content4 {
     display: block !important;
     animation: fadein 0.5s;
 }
 
-input:checked~label .button {
+.test input:checked~label .button {
     display: none !important;
     animation: fadeout 0.5s;
 }

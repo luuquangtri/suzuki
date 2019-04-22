@@ -81,7 +81,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 370px;
+    height: 200px;
     background-attachment: fixed;
     position: relative;
 }
@@ -91,7 +91,7 @@
     position: absolute;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
-    height: 370px;
+    height:200px;
 }
 
 .mode h1 {
@@ -114,7 +114,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 370px;
+    height: 200px;
     background-attachment: fixed;
     position: relative;
 }
@@ -124,7 +124,7 @@
     position: absolute;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 370px;
+    height: 200px;
 }
 
 .exterior h1 {
@@ -139,6 +139,7 @@
     color: white;
     filter: brightness(300%);
     font-family: 'Segoe UI';
+    padding: 0 30px;
 }
 
 .fix-img {
@@ -213,7 +214,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 370px;
+    height: 200px;
     background-attachment: fixed;
     position: relative;
 }
@@ -233,7 +234,8 @@
 .furniture p {
     color: white;
     filter: brightness(300%);
-    font-family: 'Segoe UI'
+    font-family: 'Segoe UI';
+    padding:0 30px;
 }
 
 .furniture::before {
@@ -241,7 +243,7 @@
     position: absolute;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 370px;
+    height: 200px;
 }
 
 .specifications {
@@ -250,7 +252,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 370px;
+    height: 200px;
     background-attachment: fixed;
     position: relative;
 }
@@ -260,7 +262,7 @@
     position: absolute;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 370px;
+    height: 200px;
 }
 
 .specifications h1 {
@@ -274,7 +276,8 @@
 .specifications p {
     color: white;
     filter: brightness(300%);
-    font-family: 'Segoe UI'
+    font-family: 'Segoe UI';
+    padding:0 30px;
 }
 
 /* ************************* */
@@ -342,7 +345,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 370px;
+    height: 200px;
     background-attachment: fixed;
     position: relative;
 }
@@ -352,7 +355,7 @@
     position: absolute;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 370px;
+    height: 200px;
 }
 
 .price-list h1 {
@@ -366,7 +369,8 @@
 .price-list p {
     color: white;
     filter: brightness(300%);
-    font-family: 'Segoe UI'
+    font-family: 'Segoe UI';
+    padding: 0 30px;
 }
 
 .menu-toggle {
@@ -586,7 +590,9 @@
 .mode-s a {
     text-decoration: none;
 }
-
+.mode p{
+    padding: 0 30px;
+}
 .phienban .name {
     color: #343434;
     font-weight: 800;

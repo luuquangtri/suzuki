@@ -173,15 +173,18 @@ a:visited {
   color: rgba(255, 255, 255, 0.4);
   cursor: pointer;
   font-size: 0.7em;
+  font-family: 'Open Sans';
 }
 .timeline-series dt a .closed {
   color: #999;
   font-size: 0.7em;
   margin-left: 0;
+  font-family: 'Open Sans';
 }
 .timeline-series dt a .open {
   color: #7DBADF;
   font-size: 0.7em;
+  font-family: 'Open Sans';
 }
 .timeline-series dt a:hover {
   color: rgba(255, 255, 255, 0.6);

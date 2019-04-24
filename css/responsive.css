@@ -433,4 +433,20 @@
         height: 60vw;
         background-size: 100vw 60vw;
     }
+    .timeline-container,.timeline-wrapper,.timeline-series,.timeline-event-content p,.timeline-event-content .media,.timeline-event-content blockquote{
+        width: 100%;
+    }
+    .timeline-wrapper .timeline-time span{
+        font-size: 0.5em;
+    }
+    
+    .timeline-event-content p{
+        font-size: 10px;
+        margin: 2px 0px;
+    }
+    .timeline-event-content .media img{
+        width: 85%;
+        border-radius: 0;
+        height: auto;
+    }
 }

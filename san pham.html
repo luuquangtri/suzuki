@@ -161,8 +161,7 @@
             <!-- <div class="container"> -->
             <div class="video ">
                 <video src="video/2018 Suzuki Swift Sport video debut.mp4" playsinline loop muted autoplay width="100%"
-                    height="50%" </video> 
-                </div> <!-- end -->
+                    height="50%" </video> </div> <!-- end -->
                     <!-- slider mobile -->
             </div>
             <!-- </div> -->
@@ -240,7 +239,7 @@
             <!-- end -->
 
             <!-- phien ban -->
-            <section id="2" >
+            <section id="2">
                 <div class="container">
                     <div class="mode">
 
@@ -299,7 +298,7 @@
                         <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
                             only five centuries, but also the leap into electronic typesetting, remaining essentially
                             unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-                             </p>
+                        </p>
                     </div>
                     <div class="row galary">
                         <div class="col-md-6 mt-2 pr-1 mb-1">
@@ -389,7 +388,7 @@
                         <h1 class="text-uppercase text-center pt-5">nội thất</h1>
                         <p class="text-center">
                             only five centuries, but also the leap into electronic typesetting, remaining essentially
-                             </p>
+                        </p>
                     </div>
                     <div class="test mt-3">
                         <input type="checkbox" class="input" id="input1" name="inputs">
@@ -411,7 +410,7 @@
                         <!-- hộp số -->
                         <div id="content1" class="content">
                             <div style="text-align: right;">
-                                
+
                                 <label for="input1" class="cross"> <span style="float:left;">Hộp số</span> X</label>
                             </div>
                             <img src="images/san pham/celerio_dab.jpg" alt="" class="img-fluid" style="height:88%;">
@@ -447,14 +446,17 @@
                         <div class="owl-carousel galary-mb-mb owl-theme">
                             <div class="item">
                                 <div class="popup-gallery">
-                                    <a href="images/san pham/6958_suzuki_celerio_interior_sz4_r1.jpg" title="PHONG CÁCH MẠNH MẼ"><img
-                                            src="images/san pham/6958_suzuki_celerio_interior_sz4_r1.jpg" width="100%" height="100%"></a>
+                                    <a href="images/san pham/6958_suzuki_celerio_interior_sz4_r1.jpg"
+                                        title="PHONG CÁCH MẠNH MẼ"><img
+                                            src="images/san pham/6958_suzuki_celerio_interior_sz4_r1.jpg" width="100%"
+                                            height="100%"></a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="popup-gallery">
                                     <a href="images/san pham/celerio_airconditioner.jpg" title="PHONG CÁCH MẠNH MẼ"><img
-                                            src="images/san pham/celerio_airconditioner.jpg" width="100%" height="100%"></a>
+                                            src="images/san pham/celerio_airconditioner.jpg" width="100%"
+                                            height="100%"></a>
                                 </div>
                             </div>
                             <div class="item">
@@ -465,14 +467,18 @@
                             </div>
                             <div class="item">
                                 <div class="popup-gallery">
-                                    <a href="images/san pham/celerio_sz2_adjustabledriversseat.jpg" title="PHONG CÁCH MẠNH MẼ"><img
-                                            src="images/san pham/celerio_sz2_adjustabledriversseat.jpg" width="100%" height="100%"></a>
+                                    <a href="images/san pham/celerio_sz2_adjustabledriversseat.jpg"
+                                        title="PHONG CÁCH MẠNH MẼ"><img
+                                            src="images/san pham/celerio_sz2_adjustabledriversseat.jpg" width="100%"
+                                            height="100%"></a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="popup-gallery">
-                                    <a href="images/san pham/celerio_sz4_autogearshiftjpg.jpeg" title="PHONG CÁCH MẠNH MẼ"><img
-                                            src="images/san pham/celerio_sz4_autogearshiftjpg.jpeg" width="100%" height="100%"></a>
+                                    <a href="images/san pham/celerio_sz4_autogearshiftjpg.jpeg"
+                                        title="PHONG CÁCH MẠNH MẼ"><img
+                                            src="images/san pham/celerio_sz4_autogearshiftjpg.jpeg" width="100%"
+                                            height="100%"></a>
                                 </div>
                             </div>
                         </div>
@@ -1561,6 +1567,53 @@
                     }
                 }
             })
+        </script>
+        <script>
+            $(document).ready(function () {
+                // Add smooth scrolling to all links
+                $("a").on('click', function (event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800, function () {
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
+            });
+        </script>
+        <script>
+        $(document).ready(function() {
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            tLoading: 'Loading image #%curr%...',
+            mainClass: 'mfp-img-mobile',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+            },
+            image: {
+                tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                titleSrc: function(item) {
+                    return item.el.attr('title') + '<small>by PTB Team</small>';
+                }
+            }
+        });
+    });
         </script>
 </body>
 

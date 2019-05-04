@@ -1167,7 +1167,6 @@ label {
 .bang-gia-vp .name-car {
     justify-content: center;
     display: flex;
-    margin-left: -70px;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Open Sans';
@@ -1180,3 +1179,103 @@ ul.thong-tin li {
 }
 
 /* effect */
+
+/* du toan */
+
+.text-du-toan select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+    width: 350px;
+    padding: 10px 0;
+}
+
+/* Remove IE arrow */
+
+.text-du-toan select::-ms-expand {
+    display: none;
+}
+
+/* Custom Select */
+
+.text-du-toan .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+}
+
+.text-du-toan select {
+    flex: 1;
+    padding: 10px 10px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.text-du-toan select option {
+    padding: 20px 0;
+}
+
+/* Arrow */
+
+.text-du-toan .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+
+/* Transition */
+
+.text-du-toan .select:hover::after {
+    color: white;
+}
+
+.text-du-toan .models {
+    display: none;
+}
+
+.text-du-toan .models.active {
+    display: block;
+    margin-top: 10px;
+}
+.text-du-toan label{
+    padding: 0;
+    font-size: 18px;
+    margin: 15px 0;
+    font-family: 'Open Sans';
+}
+
+
+.click-dtcp{
+    background: #34495e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Open Sans';
+    cursor: pointer;
+}
+.fix-lb label{
+    width: 31%;
+    text-align: right;
+}
+
+

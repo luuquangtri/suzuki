@@ -177,4 +177,7 @@ main.page-main{
     .page-news .content-list .item .detail-news{
         height: auto;
     }
+    .btn-menu{
+        display: block;
+    }
 }

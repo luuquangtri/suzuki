@@ -239,6 +239,7 @@
     }
     .content-nd h1 {
         font-size: 23px;
+        margin: 10px 0;
     }
     .mo-ta a:nth-child(1) {
         font-size: 1.5rem;
@@ -448,5 +449,40 @@
         width: 85%;
         border-radius: 0;
         height: auto;
+    }
+    .booking-car label{
+        width: auto;
+    }
+    .select{
+        width: 100%;
+    }
+    .booking-car .form-group p{
+        width: auto;
+        float: none;
+    }
+    .booking-car .form-group p input{
+        width: 100%;
+    }
+    .booking-car h2{
+        font-size: 1rem;
+    }
+    .booking-car h5{
+        font-size: 12px;
+    }
+    .thong-tin {
+        text-align: center;
+    }
+    .bang-gia-vp img{
+        margin: 20px 0;
+    }
+    ul.thong-tin li{
+        font-size:12px;
+    }
+    .bang-gia-vp h2{
+        text-align: center;
+        margin: 15px 0;
+    }
+    .bang-gia-vp .name-car{
+        margin-left: 0 !important;
     }
 }

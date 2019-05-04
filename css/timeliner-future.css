@@ -151,6 +151,7 @@ a:visited {
   padding: 4px 4px 4px 0;
   position: relative;
   width: 880px;
+  display: none;
 }
 .timeline-series dt::before {
   border-top: 3px solid rgba(0, 69, 121, 0.65);
@@ -221,7 +222,7 @@ a:visited {
   top: -4px;
 }
 .timeline-event-content {
-  display: none;
+  /* display: none; */
   margin-bottom: 40px;
 }
 .timeline-event-content p {
@@ -274,3 +275,5 @@ a:visited {
 .timeline-event-content .media p a {
   text-transform: lowercase;
 }
+
+

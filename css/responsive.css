@@ -485,4 +485,16 @@
     .bang-gia-vp .name-car{
         margin-left: 0 !important;
     }
+    p.fix-tranf{
+        transform: translateX(0) !important;
+    }
+    .text-du-toan select{
+        width: 100%;
+    }
+    .btn-tranf{
+        transform: translateX(0) !important;
+    }
+    .fix-lb label{
+        width: auto;
+    }
 }

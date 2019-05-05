@@ -29,7 +29,7 @@
         <div class="header">
             <nav id="menu">
                 <ul>
-                    <li><a href="san pham.html" >Trang chủ</a></li>
+                    <li><a href="san pham.html">Trang chủ</a></li>
                     <li><span>Sản phẩm</span>
                         <ul>
                             <li>
@@ -207,41 +207,7 @@
             </div>
             <!-- end -->
             <!-- slider mobile -->
-            <div class="slide-2 ">
-                <div class="container">
-                    <div class="quick-button">
-                        <ul class="container clearfix">
-                            <li class="pricing-list"><a href="">tìm đại lý</a></li>
-                            <li class="find-dealer"><a href="">kiểm tra</a></li>
-                            <li class="price-calculator"><a href="">tài liệu</a></li>
-                            <li class="test-drive"><a href="">ưu đãi tài chính</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="slide-2-mobile">
-                <div class="wrapper-2 container">
-                    <div class="sub-tab row mr-0 mr-0 swiper-container sub-tab-slider">
-                        <ul class="swiper-wrapper">
-                            <li class=" col-md-3 col-sm-6 pr-2 swiper-slide mt-3 pt-2 pb-2">
-                                <a href="" class="text-center "> <img src="images/banner/quolang.png" alt=""> tìm đại lý
-                                </a>
-                            </li>
-                            <li class=" col-md-3 col-sm-6 pr-2 swiper-slide mt-3 pt-2 pb-2 ">
-                                <a href="" class="text-center "><img src="images/banner/quolang.png" alt="">kiểm tra</a>
-                            </li>
-                            <li class=" col-md-3 col-sm-6 pr-2 swiper-slide mt-3 pt-2 pb-2 ">
-                                <a href="" class="text-center "><img src="images/banner/quolang.png" alt="">tài liệu</a>
-                            </li>
-                            <li class=" col-md-3 col-sm-6 pr-2 swiper-slide mt-3 pt-2 pb-2">
-                                <a href="" class="text-center "><img src="images/banner/caculator.png" alt="">ưu đãi tài
-                                    chính
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
         <section>
@@ -331,41 +297,28 @@
                             </p>
 
                         </div>
-                        <div class="d-flex justify-content-center btn-tranf" style=" transform: translateX(-9%);"><button
-                                class="click-dtcp mt-3">Dự Toán</button></div>
+                        <div class="d-flex justify-content-center btn-tranf" style=" transform: translateX(-9%);">
+                            <input type="button" value="Dự Toán" id="my-click" class="click-dtcp  mt-3"></div>
 
                     </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <section>
-            <div class="find-local parallax">
-                <div class=" container ">
-                    <div class="icon-locac row">
-                        <div class="col-md-5"></div>
-                        <div class="col-md-2 text-center" data-aos="fade-up" data-aos-delay="500"
-                            data-aos-duration="500">
-                            <a href=""><i class="fas fa-map-marker-alt"></i></a>
+                    <div class="col-md-6 price-dtcp active">
+                        <div id="price_calculator_result" class="calculator-result-1 hidden" style="display: block;">
+                            <p class="price">Giá (VNĐ) <span>1,198,000,000</span></p>
+                            <p>Phí trước bạ (<strong>10%</strong>) <span>119,800,000</span></p>
+                            <p>Phí đăng ký <span>2,000,000</span></p>
+                            <p>Phí đăng kiểm <span>340,000</span></p>
+                            <p>Bảo hiểm TNDS <span>436,700</span></p>
+                            <p>Bảo hiểm Vật chất (<strong>1.56%</strong>) <span>18,688,800</span></p>
+                            <p class="fee">Tổng chi phí đăng ký <span>141,265,500</span></p>
+                            <p class="total">TỔNG CỘNG <span>1,339,265,500</span></p>
                         </div>
-                        <div class="col-md-5"></div>
-                    </div>
-                    <div class="find-local-text text-center">
-                        <h1>tìm đại lý</h1>
-                        <p>Nhập mã bưu điện hoặc thị trấn đầy đủ của bạn để tìm đại lý gần nhất đối với bạn</p>
-                    </div>
-                    <div class="form-search text-center">
-                        <label for=""><img src="images/banner/icon-local.png" alt=""></label>
-                        <input type="text" placeholder="Nhập mã hoặc thị trấn">
-                    </div>
-                    <div class="btn-btn-timkiem text-center d-flex justify-content-center">
-                        <input type="submit" value="TÌM KIẾM">
                     </div>
                 </div>
+
             </div>
         </section>
+
+        
         <footer>
             <div class="footer">
                 <div class="container">
@@ -569,6 +522,13 @@
         });
 
     </script>
+    <script>
+        $('#my-click').click(function(){
+            $('.price-dtcp').removeClass('active');
+        })
+        
+    </script>
+
 </body>
 
 </html>

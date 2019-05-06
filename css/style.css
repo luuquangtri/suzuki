@@ -1178,7 +1178,7 @@ label {
 
 ul.thong-tin li {
     font-family: 'Open Sans';
-    font-size: 14px;
+    font-size: 13px;
 }
 
 /* effect */
@@ -1367,10 +1367,20 @@ ul.thong-tin li {
     padding: 8px 0;
     border: none;
     outline: none;
-    margin-top: 4px;
+    margin-top: 10px;
     color: white;
     background: #003145;
     font-family: 'Open Sans';
     text-transform: uppercase;
     border-radius: .25rem;
+}
+.the-content p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 30px;
+}
+.the-content p strong{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 30px;
 }

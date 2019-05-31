@@ -714,7 +714,11 @@ p {
     top: 30vw;
 
 }
-
+#b5{
+    position: absolute;
+    left: 53vw;
+    top: 8vw;
+}
 .test #input1:checked~#content1 {
     display: block !important;
     animation: fadein 0.5s;
@@ -733,7 +737,10 @@ p {
     display: block !important;
     animation: fadein 0.5s;
 }
-
+.test #input5:checked~#content5 {
+    display: block !important;
+    animation: fadein 0.5s;
+}
 .test input:checked~label .button {
     display: none !important;
     animation: fadeout 0.5s;

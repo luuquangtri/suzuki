@@ -215,6 +215,15 @@
     .navi-2 {
         display: block;
     }
+    .newpage .slidebar-cateqery ul li span{
+        font-size: 16px;
+    }
+    .newpage .slidebar-cateqery ul li a{
+        font-size: 10px;
+    }
+    .newpage .slidebar-menu li a{
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -510,5 +519,56 @@
     }
     .fix-lb label {
         width: auto;
+    }
+    /* .vitri {
+        order: 1;
+        padding: 0;
+    }
+    .full-view{
+        padding: 0px ;
+    }
+    .fix-view{
+        padding: 0px ;
+    }
+    .newpage .card-body{
+        margin-bottom: 40px;
+    } */
+}
+
+@media screen and (min-width: 240px) and (max-width: 575px) {
+    .vitri {
+        order: 1;
+        padding: 0;
+    }
+    .full-view{
+        padding: 0px ;
+    }
+    .fix-view{
+        padding: 0px ;
+    }
+    .newpage .card-body{
+        margin-bottom: 40px;
+    }
+    .line-top{
+        display: block !important;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .vitri {
+        order: 1;
+        padding: 0;
+    }
+    .full-view{
+        padding: 0px ;
+    }
+    .newpage .fix-view{
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .newpage .card-body{
+        margin-bottom: 40px;
+    }
+    .line-top{
+        display: block !important;
     }
 }

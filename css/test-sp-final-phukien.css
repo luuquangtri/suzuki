@@ -2,4 +2,11 @@
     height: 202px;
     margin-bottom: 10px;
 }
-
+.test-flex{
+    flex: 0 0 35.333333%;
+    max-width: 35.333333%;
+}
+.test-flex-1{
+    flex: 0 0 64.666667%;
+    max-width: 64.666667%;
+}

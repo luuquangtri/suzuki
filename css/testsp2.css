@@ -1,0 +1,22 @@
+.test-sp-cs{
+    height: 400px;
+    /* width: 1200px; */
+    background: #f00;
+    display: flex;
+}
+.content123{
+    width: calc(50% - 50px);
+    height: 100%;
+    background: #000;
+    box-sizing: border-box;
+}
+.imagebox{
+    width: calc(50% + 50px);
+    height: 100%;
+    background: #f00;
+    box-sizing: border-box;
+    border-left: 100px solid #000;
+    border-bottom: 400px solid transparent;
+    background: url('../images/san pham/ngoai-that-1.png');
+    background-position: -100px -150px;
+}

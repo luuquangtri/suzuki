@@ -9,7 +9,7 @@
 			"label": "LED Daytime Running Lights ",
 			"description": "Newly equipped LED arrays in the foglamp bezels enhance Swift's emotional and sporty character.",
 			"thumbnail": ["FP_001"],
-			"visible": true,
+			"visible": false,
 			"positions": [{
 				"x":  350,
 				"y":  322
@@ -360,7 +360,7 @@
 			"label": "Door Mirrors with Built-in Turn Signal Lamps",
 			"description": "Newly adopted built in turn signal lamps create better visibility for surrounding motorists and pedestrians.",
 			"thumbnail": ["FP_004"],
-			"visible": true,
+			"visible": false,
 			"positions": [{
 				"x":  536,
 				"y":  223
@@ -477,7 +477,7 @@
 			"label": "Power Sunroof (option for GLX)",
 			"description": "Power tilt-and-slide sunroof adds your journeys a great sense of openness.",
 			"thumbnail": ["FP_005"],
-			"visible": true,
+			"visible": false,
 			"positions": [{
 				"x":  429,
 				"y":  116
@@ -711,7 +711,7 @@
 			"label": "Request Switch",
 			"description": "A keyless-start transmitter allows keyless unlocking and locking of the doors by pushing a button on the door handle.",
 			"thumbnail": ["FP_007"],
-			"visible": true,
+			"visible": false,
 			"positions": [{
 				"x":  572,
 				"y":  244

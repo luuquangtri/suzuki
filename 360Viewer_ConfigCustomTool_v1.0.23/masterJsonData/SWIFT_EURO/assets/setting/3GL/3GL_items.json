@@ -1,0 +1,917 @@
+﻿{"ITEMS":[{
+		"category_id" : "BACKGROUND",
+		"categoryLabel" : "Background",
+		"groups" : [{
+				"group_id" : "BG",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "BG_A",
+					"label" : "Background",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BG_A",
+					"isConfig" : true,
+					"marketFlag" : ""
+			}]
+		}]
+	},{
+		"category_id" : "BODYCOLOR",
+		"categoryLabel" : "Bodycolor",
+		"groups" : [{
+				"group_id" : "BC",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "BC_YL",
+					"label" : "Sunburst Yellow Metallic",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_YL",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_SW",
+					"label" : "Superior White",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_SW",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_CW",
+					"label" : "Cool White Pearl",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_CW",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_SV",
+					"label" : "Silky Silver Metallic 2",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_SV",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_GR",
+					"label" : "Galactic Gray Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_GR",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_BK",
+					"label" : "Cosmic Black Pearl Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_BK",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_BW",
+					"label" : "Bison Brown Pearl Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_BW",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_RD",
+					"label" : "Bright Red 5",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_RD",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_AGR",
+					"label" : "Amethyst Gray Pearl Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_AGR",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_BL",
+					"label" : "Boost Blue Pearl Metallic 3",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_BL",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_YL_WH",
+					"label" : "Sunburst Yellow Metallic + Cool White Pearl",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_YL_WH",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_BK_WH",
+					"label" : "Cosmic Black Pearl Metallic + Cool White Pearl",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_BK_WH",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_BW_WH",
+					"label" : "Bison Brown Pearl Metallic + Cool White Pearl",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_BW_WH",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "BC_BL_WH",
+					"label" : "Boost Blue Pearl Metallic 3 + Cool White Pearl",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_BL_WH",
+					"isConfig" : true,
+					"marketFlag" : ""
+			}]
+		}]
+	},{
+		"category_id" : "WHEELS",
+		"categoryLabel" : "Wheels",
+		"groups" : [{
+				"group_id" : "W",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "W_001",
+					"label" : "15\" Steel wheels with full wheel caps",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_001",
+					"isConfig" : true,
+					"marketFlag" : "M_C_N"
+					},{
+					"item_id" : "W_002",
+					"label" : "16\" Alloy wheels",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_002",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O"
+					},{
+					"item_id" : "W_003",
+					"label" : "15\" Alloy wheels\n\"BEAT\"\n(silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_003",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "W_004",
+					"label" : "15\" Alloy wheels\n\"BEAT\"\n(titanium)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_004",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "W_005",
+					"label" : "15\" Alloy wheels\n\"BEAT\"\n(titanium/polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_005",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "W_006",
+					"label" : "15\" Alloy wheels\n\"BEAT\"\n(black/polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_006",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "W_007",
+					"label" : "15\" Alloy wheels\n\"BEAT-2\"\n(black/polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_007",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "W_008",
+					"label" : "15\" Alloy wheels\n\"SAMBA\"\n(Silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_008",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "W_009",
+					"label" : "15\" Alloy wheels\n\"SAMBA\"\n(black/polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_009",
+					"isConfig" : true,
+					"marketFlag" : ""
+			}]
+		}]
+	},{
+		"category_id" : "EXT_OPTION",
+		"categoryLabel" : "Exterior\nOption & Accessory\n(OP)",
+		"groups" : [{
+				"group_id" : "B",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "B_002",
+					"label" : "Privacy glass",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "Factory option",
+					"price" : "",
+					"thumbnail" : "B_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O"
+				}]
+			},{
+				"group_id" : "C",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "C_001",
+					"label" : "Front spoiler",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "C_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "T",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "T_001",
+					"label" : "Front grille",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "T_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "D",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "D_001",
+					"label" : "Side skirt set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "D_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "E",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "E_001",
+					"label" : "Rear valance",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "E_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "E_002",
+					"label" : "Rear valance\n(two-tone)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "E_002",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "F",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "F_001",
+					"label" : "Roof edge spoiler",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "F_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "G",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "G_001",
+					"label" : "Front and rear skid plate set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "G_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "H",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "H_001",
+					"label" : "Side skid plate set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "H_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "I",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "I_002",
+					"label" : "Fog lamp set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "I_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O"
+					},{
+					"item_id" : "I_003",
+					"label" : "Front fog lamps with LED DRL",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "Factory option",
+					"price" : "",
+					"thumbnail" : "I_003",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O"
+				}]
+			},{
+				"group_id" : "J",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "J_001",
+					"label" : "Head lamp trim",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "J_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "K",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "K_001",
+					"label" : "Door mirror cover\n(white carbon film)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "K_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "K_002",
+					"label" : "Door mirror cover\n(carbon film)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "K_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "K_002",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "L",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "L_001",
+					"label" : "Fender extension set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "L_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "L_002",
+					"label" : "Fender extension incl. side skirts",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "L_002",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "M",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "M_001",
+					"label" : "Rear hatch moulding\n(chrome)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "M_002",
+					"label" : "Rear hatch moulding\n(anthracite)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_002",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "N",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "N_001",
+					"label" : "Rigid mud flap set\n(unpainted)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "N_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "N_002",
+					"label" : "Rigid mud flap set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "N_002",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "N_003",
+					"label" : "Flexible mud flap set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "N_003",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "O",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "O_001",
+					"label" : "Side body moulding set\n(unpainted)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_002",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_002",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_003",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_003",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_004",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_004",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_005",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_005",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_006",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_006",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_007",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_007",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_008",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_008",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_009",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_009",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_010",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_010",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "O_011",
+					"label" : "Side body moulding set\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "O_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_011",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "P",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "P_001",
+					"label" : "Side body moulding set\n(with a silver stripe)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "P_001",
+					"isConfig" : false,
+					"marketFlag" : ""
+					},{
+					"item_id" : "P_003",
+					"label" : "Side body moulding set\n(with the Swift logo badge)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "P_003",
+					"isConfig" : false,
+					"marketFlag" : ""
+					},{
+					"item_id" : "P_005",
+					"label" : "Side body moulding set\n(with the Swift logo print)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "P_005",
+					"isConfig" : false,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "Q",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "Q_001",
+					"label" : "Bumper corner protection\n(unpainted)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_002",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_002",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_003",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_003",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_004",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_004",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_005",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_005",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_006",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_006",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_007",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_007",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_008",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_008",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_009",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_009",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_010",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_010",
+					"isConfig" : true,
+					"marketFlag" : ""
+					},{
+					"item_id" : "Q_011",
+					"label" : "Bumper corner protection\n(coloured)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "Q_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_011",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "R",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "R_001",
+					"label" : "Rain and wind deflectors",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "R_001",
+					"isConfig" : false,
+					"marketFlag" : ""
+				}]
+			},{
+				"group_id" : "S",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "S_001",
+					"label" : "Rear parking sensor",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "S_001",
+					"isConfig" : true,
+					"marketFlag" : ""
+			}]
+		}]
+	},{
+		"category_id" : "INT_BASE",
+		"categoryLabel" : "Interior",
+		"groups" : [{
+				"group_id" : "INT_BASE",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "INT_BASE_3GLX",
+					"label" : "3door(GLX)",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "INT_BASE_3GLX",
+					"isConfig" : true,
+					"marketFlag" : ""
+				}]
+			}]
+	}]
+}

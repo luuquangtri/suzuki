@@ -1,0 +1,378 @@
+﻿{"MATERIALS":{
+	"EXT": [
+		{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_CL",
+			"items" : ["GRD_GLP_D","BG_A","BC_CL"]
+		},{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_AGR",
+			"items" : ["GRD_GLP_D","BG_A","BC_AGR"]
+		},{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_SW",
+			"items" : ["GRD_GLP_D","BG_A","BC_SW"]
+		},{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_CW",
+			"items" : ["GRD_GLP_D","BG_A","BC_CW"]
+		},{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_SV",
+			"items" : ["GRD_GLP_D","BG_A","BC_SV"]
+		},{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_GR",
+			"items" : ["GRD_GLP_D","BG_A","BC_GR"]
+		},{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_BK",
+			"items" : ["GRD_GLP_D","BG_A","BC_BK"]
+		},{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_BW",
+			"items" : ["GRD_GLP_D","BG_A","BC_BW"]
+		},{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_RD",
+			"items" : ["GRD_GLP_D","BG_A","BC_RD"]
+		},{
+			"layer" : 0,
+			"material" : "EXT-GRD_GLP_D-BG_A-BC_BL",
+			"items" : ["GRD_GLP_D","BG_A","BC_BL"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_002-BG_A",
+			"items" : ["WH_002","BG_A"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_003-BG_A",
+			"items" : ["WH_003","BG_A"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_004-BG_A",
+			"items" : ["WH_004","BG_A"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_005-BG_A",
+			"items" : ["WH_005","BG_A"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_006-BG_A",
+			"items" : ["WH_006","BG_A"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_007-BG_A",
+			"items" : ["WH_007","BG_A"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_008-BG_A",
+			"items" : ["WH_008","BG_A"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_009-BG_A",
+			"items" : ["WH_009","BG_A"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_010-BG_A",
+			"items" : ["WH_010","BG_A"]
+		},{
+			"layer" : 2,
+			"material" : "EXT-A_001",
+			"items" : ["A_001"]
+		},{
+			"layer" : 4,
+			"material" : "EXT-B_002",
+			"items" : ["B_002"]
+		},{
+			"layer" : 7,
+			"material" : "EXT-E_001",
+			"items" : ["E_001"]
+		},{
+			"layer" : 8,
+			"material" : "EXT-F_001",
+			"items" : ["F_001"]
+		},{
+			"layer" : 9,
+			"material" : "EXT-G_001",
+			"items" : ["G_001"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_CL",
+			"items" : ["H_001","BC_CL"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_AGR",
+			"items" : ["H_001","BC_AGR"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_SW",
+			"items" : ["H_001","BC_SW"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_CW",
+			"items" : ["H_001","BC_CW"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_SV",
+			"items" : ["H_001","BC_SV"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_GR",
+			"items" : ["H_001","BC_GR"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_BK",
+			"items" : ["H_001","BC_BK"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_BW",
+			"items" : ["H_001","BC_BW"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_RD",
+			"items" : ["H_001","BC_RD"]
+		},{
+			"layer" : 10,
+			"material" : "EXT-H_001-BC_BL",
+			"items" : ["H_001","BC_BL"]
+		},{
+			"layer" : 12,
+			"material" : "EXT-J_001",
+			"items" : ["J_001"]
+		},{
+			"layer" : 13,
+			"material" : "EXT-K_001",
+			"items" : ["K_001"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_CL",
+			"items" : ["L_001","BC_CL"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_AGR",
+			"items" : ["L_001","BC_AGR"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_SW",
+			"items" : ["L_001","BC_SW"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_CW",
+			"items" : ["L_001","BC_CW"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_SV",
+			"items" : ["L_001","BC_SV"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_GR",
+			"items" : ["L_001","BC_GR"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_BK",
+			"items" : ["L_001","BC_BK"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_BW",
+			"items" : ["L_001","BC_BW"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_RD",
+			"items" : ["L_001","BC_RD"]
+		},{
+			"layer" : 14,
+			"material" : "EXT-L_001-BC_BL",
+			"items" : ["L_001","BC_BL"]
+		},{
+			"layer" : 15,
+			"material" : "EXT-MA_001",
+			"items" : ["MA_001"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_002",
+			"items" : ["M_002"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_003",
+			"items" : ["M_003"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_004",
+			"items" : ["M_004"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_005",
+			"items" : ["M_005"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_006",
+			"items" : ["M_006"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_007",
+			"items" : ["M_007"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_008",
+			"items" : ["M_008"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_009",
+			"items" : ["M_009"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_010",
+			"items" : ["M_010"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_011",
+			"items" : ["M_011"]
+		},{
+			"layer" : 16,
+			"material" : "EXT-M_012",
+			"items" : ["M_012"]
+		},{
+			"layer" : 17,
+			"material" : "EXT-NA_001",
+			"items" : ["NA_001"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_002",
+			"items" : ["N_002"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_003",
+			"items" : ["N_003"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_004",
+			"items" : ["N_004"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_005",
+			"items" : ["N_005"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_006",
+			"items" : ["N_006"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_007",
+			"items" : ["N_007"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_008",
+			"items" : ["N_008"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_009",
+			"items" : ["N_009"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_010",
+			"items" : ["N_010"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_011",
+			"items" : ["N_011"]
+		},{
+			"layer" : 18,
+			"material" : "EXT-N_012",
+			"items" : ["N_012"]
+		},{
+			"layer" : 19,
+			"material" : "EXT-P_001",
+			"items" : ["P_001"]
+		},{
+			"layer" : 20,
+			"material" : "EXT-Y_001",
+			"items" : ["Y_001"]
+		},{
+			"layer" : 21,
+			"material" : "EXT-Q_001",
+			"items" : ["Q_001"]
+		},{
+			"layer" : 22,
+			"material" : "EXT-Z_001",
+			"items" : ["Z_001"]
+		},{
+			"layer" : 23,
+			"material" : "EXT-R_001",
+			"items" : ["R_001"]
+		},{
+			"layer" : 23,
+			"material" : "EXT-R_002",
+			"items" : ["R_002"]
+		},{
+			"layer" : 24,
+			"material" : "EXT-T_001",
+			"items" : ["T_001"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_CL",
+			"items" : ["U_001","BC_CL"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_AGR",
+			"items" : ["U_001","BC_AGR"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_SW",
+			"items" : ["U_001","BC_SW"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_CW",
+			"items" : ["U_001","BC_CW"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_SV",
+			"items" : ["U_001","BC_SV"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_GR",
+			"items" : ["U_001","BC_GR"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_BK",
+			"items" : ["U_001","BC_BK"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_BW",
+			"items" : ["U_001","BC_BW"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_RD",
+			"items" : ["U_001","BC_RD"]
+		},{
+			"layer" : 25,
+			"material" : "EXT-U_001-BC_BL",
+			"items" : ["U_001","BC_BL"]
+		},{
+			"layer" : 26,
+			"material" : "EXT-V_001",
+			"items" : ["V_001"]
+		},{
+			"layer" : 27,
+			"material" : "EXT-W_001",
+			"items" : ["W_001"]
+		},{
+			"layer" : 28,
+			"material" : "EXT-X_001",
+			"items" : ["X_001"]
+		},{
+			"layer" : 28,
+			"material" : "EXT-X_002",
+			"items" : ["X_002"]
+		}],
+	"INT": [
+		{
+			"layer" : 0,
+			"material" : "INT-INTBASE_GLX-BG_A",
+			"items" : ["INTBASE_GLX","BG_A"]
+		},{
+			"layer" : 0,
+			"material" : "INT-INTBASE_GLX_OP-BG_A",
+			"items" : ["INTBASE_GLX_OP","BG_A"]
+		}]
+}}

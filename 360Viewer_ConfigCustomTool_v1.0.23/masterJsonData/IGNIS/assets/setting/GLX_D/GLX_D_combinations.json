@@ -1,0 +1,15 @@
+﻿{"COMBINATIONS":{
+		"O_001":{
+			"invalid" : ["Q_001"],
+			"valid" : []
+		},
+		"P_001":{
+			"invalid" : ["Q_001"],
+			"valid" : []
+		},
+		"Q_001":{
+			"invalid" : ["O_001","P_001"],
+			"valid" : []
+		}
+	}
+}

@@ -1,0 +1,718 @@
+﻿{"ITEMS":[{
+		"category_id" : "BACKGROUND",
+		"categoryLabel" : "Background",
+		"groups" : [{
+				"group_id" : "BG",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "BG_A",
+					"label" : "Background",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BG_A",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "BODYCOLOR",
+		"categoryLabel" : "Bodycolor",
+		"groups" : [{
+				"group_id" : "BC",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "BC_ZQN",
+					"label" : "Atlantis Turquoise Pearl Metallic",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZQN",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_26U",
+					"label" : "Superior White",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_26U",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZNL",
+					"label" : "Cool White Pearl ",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZNL",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZCC",
+					"label" : "Silky Silver Metallic 2",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZCC",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZCD",
+					"label" : "Galactic Gray Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZCD",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZCE",
+					"label" : "Cosmic Black Pearl Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZCE",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "WHEELS",
+		"categoryLabel" : "Wheels",
+		"groups" : [{
+				"group_id" : "WH",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "WH_001",
+					"label" : "16\" Steel wheels with full wheel caps",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_005",
+					"label" : "16\" Alloy wheels \"Gobi\" (silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_005",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_006",
+					"label" : "16\" Alloy wheels \"Gobi\" (black polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_006",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_007",
+					"label" : "17\" Alloy wheels \"Mojave\"(silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_007",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_008",
+					"label" : "17\" Alloy wheels \"Mojave\"(black polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_008",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_009",
+					"label" : "17\" Alloy wheels \"Misti\" (silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_009",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_010",
+					"label" : "17\" Alloy wheels \"Misti\" (matt black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_010",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_011",
+					"label" : "17\" Alloy wheels \"Misti\" (black polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_011",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "EXT_OPTION",
+		"categoryLabel" : "Exterior\nOption & Accessory\n(OP)",
+		"groups" : [{
+				"group_id" : "A",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "A_001",
+					"label" : "Urban package",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "A_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "B",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "B_001",
+					"label" : "DRL bezel, small",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "B_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "C",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "C_001",
+					"label" : "Side body moulding, small",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "C_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "D",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "D_001",
+					"label" : "Roof edge spoiler",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "D_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "E",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "E_001",
+					"label" : "Rugged package",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "E_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "F",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "F_001",
+					"label" : "DRL bezel, large",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "F_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "G",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "G_001",
+					"label" : "Front skid plate, large",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "G_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "H",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "H_001",
+					"label" : "Side body moulding, large",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "H_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "I",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "I_001",
+					"label" : "Rear skid plate",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "I_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "J",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "J_001",
+					"label" : "Loading protection (black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "J_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "J_002",
+					"label" : "Loading protection (silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "J_002",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "M",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "M_001",
+					"label" : "Front skid plate, small",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "N",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "N_001",
+					"label" : "Mud flap set flexible",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "N_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "N_002",
+					"label" : "Mud flap set rigid",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "N_002",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "O",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "O_001",
+					"label" : "Rear hatch moulding",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "P",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "P_002",
+					"label" : "Door handle cover (without request switch)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "P_002",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "Q",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "Q_001",
+					"label" : "Without DRL",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/Q_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "R",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "R_001",
+					"label" : "Without rear fog lamp",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "R_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/R_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "S",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "S_001",
+					"label" : "Rearview mirror （automatic dimming）",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "S_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/S_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "T",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "T_001",
+					"label" : "Roof rails (black) ",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "T_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/T_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "U",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "U_001",
+					"label" : "Front grill (chrome type)",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "U_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/U_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "V",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "V_001",
+					"label" : "Fender garnish (chrome type)",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "V_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/V_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "W",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "W_001",
+					"label" : "Outside door handles (body couloured)",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/W_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "X",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "X_001",
+					"label" : "Request switch for handle &  rear hatch",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "X_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/X_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "AA",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "AA_001",
+					"label" : "ALLGRIP Emblem",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "AA_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/AA_001",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "INT_BASE",
+		"categoryLabel" : "Seat",
+		"groups" : [{
+				"group_id" : "INTBASE",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "INTBASE_001",
+					"label" : "GLX equipped with CD Player",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "INTBASE_001",
+					"isConfig" : true,
+					"marketFlag" : "M_C_N/INTBASE_001",
+					"memo" : ""
+					},{
+					"item_id" : "INTBASE_002",
+					"label" : "GLX equipped with SLDA",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "INTBASE_002",
+					"isConfig" : true,
+					"marketFlag" : "M_C_N/INTBASE_002",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "INT_OPTION",
+		"categoryLabel" : "features",
+		"groups" : [{
+				"group_id" : "INTFP-A",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "INTFP-A_001",
+					"label" : "Turquoise",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "INSTRUMENT PANEL ORNAMENT & A/C  LOUVRE RINGS - Turquoise",
+					"price" : "",
+					"thumbnail" : "INTFP-A_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Sグレードは非表示設定"
+					},{
+					"item_id" : "INTFP-A_002",
+					"label" : "Orange",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "INSTRUMENT PANEL ORNAMENT & A/C  LOUVRE RINGS - Orange",
+					"price" : "",
+					"thumbnail" : "INTFP-A_002",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Sグレードは非表示設定"
+					},{
+					"item_id" : "INTFP-A_003",
+					"label" : "White",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "INSTRUMENT PANEL ORNAMENT & A/C  LOUVRE RINGS - White",
+					"price" : "",
+					"thumbnail" : "INTFP-A_003",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Sグレードは非表示設定"
+					},{
+					"item_id" : "INTFP-A_004",
+					"label" : "Piano black",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "INSTRUMENT PANEL ORNAMENT & A/C  LOUVRE RINGS - Piano black",
+					"price" : "",
+					"thumbnail" : "INTFP-A_004",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Sグレードは非表示設定"
+				}]
+			},{
+				"group_id" : "INTFP-B",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "INTFP-B_005",
+					"label" : "Carbon",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "CENTRE CLOCK - Carbon",
+					"price" : "",
+					"thumbnail" : "INTFP-B_005",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Sグレードは非表示設定"
+					},{
+					"item_id" : "INTFP-B_006",
+					"label" : "Kanji",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "CENTRE CLOCK - Kanji",
+					"price" : "",
+					"thumbnail" : "INTFP-B_006",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Sグレードは非表示設定"
+				}]
+			}]
+	}]
+}

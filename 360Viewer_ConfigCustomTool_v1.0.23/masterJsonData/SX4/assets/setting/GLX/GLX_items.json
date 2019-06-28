@@ -1,0 +1,918 @@
+﻿{"ITEMS":[{
+		"category_id" : "BACKGROUND",
+		"categoryLabel" : "Background",
+		"groups" : [{
+				"group_id" : "BG",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "BG_A",
+					"label" : "Background",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BG_A",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "BODYCOLOR",
+		"categoryLabel" : "Bodycolor",
+		"groups" : [{
+				"group_id" : "BC",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "BC_CL",
+					"label" : "Crystal Lime Metallic ",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_CL",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_AGR",
+					"label" : "Amethyst Gray Pearl Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_AGR",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_SW",
+					"label" : "Superior White",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_SW",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_CW",
+					"label" : "Cool White Pearl",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_CW",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_SV",
+					"label" : "Silky Silver Metallic 2",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_SV",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_GR",
+					"label" : "Galactic Gray Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_GR",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_BK",
+					"label" : "Cosmic Black Pearl Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_BK",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_BW",
+					"label" : "Bison Brown Pearl Metallic",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_BW",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_RD",
+					"label" : "Bright Red 5",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_RD",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_BL",
+					"label" : "Boost Blue Pearl Metallic 3",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_BL",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "WHEELS",
+		"categoryLabel" : "Wheels",
+		"groups" : [{
+				"group_id" : "WH",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "WH_002",
+					"label" : "16\" Alloy wheels",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_002",
+					"isConfig" : true,
+					"marketFlag" : "M_C_N/WH_002",
+					"memo" : ""
+					},{
+					"item_id" : "WH_003",
+					"label" : "17\" Alloy wheels",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_003",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O/WH_003",
+					"memo" : ""
+					},{
+					"item_id" : "WH_004",
+					"label" : "17\" Alloy wheels (polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_004",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O/WH_004",
+					"memo" : ""
+					},{
+					"item_id" : "WH_005",
+					"label" : "16\" Alloy wheels \"Fuji\" (silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_005",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_006",
+					"label" : "16\" Alloy wheels \"Fuji\" (shiny black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_006",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_007",
+					"label" : "16\" Alloy wheels \"Fuji\" (black polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_007",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_008",
+					"label" : "17\" Alloy wheels \"Misti\" (silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_008",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_009",
+					"label" : "17\" Alloy wheels \"Misti\" (matt black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_009",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_010",
+					"label" : "17\" Alloy wheels \"Misti\" (black polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_010",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "EXT_OPTION",
+		"categoryLabel" : "Exterior\nOption & Accessory\n(OP)",
+		"groups" : [{
+				"group_id" : "A",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "A_001",
+					"label" : "Panoramic Sunroof",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "Factory option",
+					"price" : "",
+					"thumbnail" : "A_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/A_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "B",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "B_001",
+					"label" : "Privacy glass",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "Factory option",
+					"price" : "",
+					"thumbnail" : "B_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/B_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "E",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "E_001",
+					"label" : "Fog lamp bezel set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "E_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "F",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "F_001",
+					"label" : "Without rear fog lamp",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "F_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/F_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "G",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "G_001",
+					"label" : "Chrome package",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "G_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "H",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "H_001",
+					"label" : "Head lamps (HID projector) and washers",
+					"checked" : true,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "H_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/H_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "J",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "J_001",
+					"label" : "Door handle cover (chrome)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "J_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "K",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "K_001",
+					"label" : "Side skirt garnish (silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "K_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "L",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "L_001",
+					"label" : "Roof edge spoiler",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "L_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "MA",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "MA_001",
+					"label" : "Bumper corner protection (chrome)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "MA_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "M",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "M_002",
+					"label" : "Bumper corner protection\n(unpainted)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_002",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "M_003",
+					"label" : "Bumper corner protection\n(C-Lime)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_003",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Crystal Lime Metallic "
+					},{
+					"item_id" : "M_004",
+					"label" : "Bumper corner protection\n(A-Gray)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_004",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Amethyst Gray Pearl Metallic"
+					},{
+					"item_id" : "M_005",
+					"label" : "Bumper corner protection\n(S-White)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_005",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Superior White"
+					},{
+					"item_id" : "M_006",
+					"label" : "Bumper corner protection\n(C-White)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_006",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Cool White Pearl"
+					},{
+					"item_id" : "M_007",
+					"label" : "Bumper corner protection\n(S-Silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_007",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Silky Silver Metallic 2"
+					},{
+					"item_id" : "M_008",
+					"label" : "Bumper corner protection\n(G-Gray)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_008",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Galactic Gray Metallic"
+					},{
+					"item_id" : "M_009",
+					"label" : "Bumper corner protection\n(C-Black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_009",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Cosmic Black Pearl Metallic"
+					},{
+					"item_id" : "M_010",
+					"label" : "Bumper corner protection\n(B-Brown)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_010",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Bison Brown Pearl Metallic"
+					},{
+					"item_id" : "M_011",
+					"label" : "Bumper corner protection\n(B-Red)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_011",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Bright Red 5"
+					},{
+					"item_id" : "M_012",
+					"label" : "Bumper corner protection\n(B-Blue)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "M_002",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_012",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Boost Blue Pearl Metallic 3"
+				}]
+			},{
+				"group_id" : "NA",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "NA_001",
+					"label" : "Side  body moulding (chrome)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "NA_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "N",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "N_002",
+					"label" : "Side body moulding with SX4 badge\n(unpainted)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_002",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "N_003",
+					"label" : "Side body moulding with SX4 badge\n(C-Lime)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_003",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Crystal Lime Metallic "
+					},{
+					"item_id" : "N_004",
+					"label" : "Side body moulding with SX4 badge\n(A-Gray)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_004",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Amethyst Gray Pearl Metallic"
+					},{
+					"item_id" : "N_005",
+					"label" : "Side body moulding with SX4 badge\n(S-White)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_005",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Superior White"
+					},{
+					"item_id" : "N_006",
+					"label" : "Side body moulding with SX4 badge\n(C-White)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_006",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Cool White Pearl"
+					},{
+					"item_id" : "N_007",
+					"label" : "Side body moulding with SX4 badge\n(S-Silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_007",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Silky Silver Metallic 2"
+					},{
+					"item_id" : "N_008",
+					"label" : "Side body moulding with SX4 badge\n(G-Gray)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_008",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Galactic Gray Metallic"
+					},{
+					"item_id" : "N_009",
+					"label" : "Side body moulding with SX4 badge\n(C-Black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_009",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Cosmic Black Pearl Metallic"
+					},{
+					"item_id" : "N_010",
+					"label" : "Side body moulding with SX4 badge\n(B-Brown)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_010",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Bison Brown Pearl Metallic"
+					},{
+					"item_id" : "N_011",
+					"label" : "Side body moulding with SX4 badge\n(B-Red)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_011",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Bright Red 5"
+					},{
+					"item_id" : "N_012",
+					"label" : "Side body moulding with SX4 badge\n(B-Blue)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "N_002",
+					"description" : "(black writing, silver background)",
+					"price" : "",
+					"thumbnail" : "N_012",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : "Boost Blue Pearl Metallic 3"
+				}]
+			},{
+				"group_id" : "O",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "O_001",
+					"label" : "Side body moulding with SX4 badge",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "(silver/ black)/(black/white)",
+					"price" : "",
+					"thumbnail" : "O_001",
+					"isConfig" : false,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "P",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "P_001",
+					"label" : "Rear hatch moulding (chrome)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "P_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "Y",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "Y_001",
+					"label" : "Rear hatch moulding (brushed aluminium)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Y_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "Q",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "Q_001",
+					"label" : "Rigid mud flap set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "Z",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "Z_001",
+					"label" : "Flexible mud flap set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Z_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "R",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "R_001",
+					"label" : "Loading edge protection (black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "R_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "R_002",
+					"label" : "Loading edge protection (aluminum)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "R_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "R_002",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "S",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "S_001",
+					"label" : "Bumper protection foil (black/transparent)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "S_001",
+					"isConfig" : false,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "W",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "W_001",
+					"label" : "Multi roof rack",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "W_001",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "X",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "X_001",
+					"label" : "\"SX4\" rear emblem and license plates",
+					"checked" : false,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "X_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/X_001",
+					"memo" : ""
+					},{
+					"item_id" : "X_002",
+					"label" : "\"SX4 S-CROSS\" rear emblem and license plates",
+					"checked" : true,
+					"visible" : false,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "X_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_N/X_002",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "INT_BASE",
+		"categoryLabel" : "Interior",
+		"groups" : [{
+				"group_id" : "INTBASE",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "INTBASE_GLX",
+					"label" : "4WD GLX",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "INTBASE_GLX",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "INTBASE_GLX_OP",
+					"label" : "4WD GLX (with leather upholstery and panoramic sunroof)",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "INTBASE_GLX_OP",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+				}]
+			}]
+	}]
+}

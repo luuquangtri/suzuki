@@ -1,19 +1,21 @@
-.phu-kien .fix-final img{
+.phu-kien .fix-final img {
     height: 202px;
     margin-bottom: 10px;
 }
-.test-flex{
+
+.test-flex {
     flex: 0 0 35.333333%;
     max-width: 35.333333%;
 }
-.test-flex-1{
+
+.test-flex-1 {
     flex: 0 0 64.666667%;
     max-width: 64.666667%;
 }
-iframe{
-    max-width: 100%;
-    width: 100%;
-    margin: 0;
-    line-height: 1;
-    border: none;
-}
+
+
+@media only screen and (max-width: 600px) {
+   #blockrandom{
+       height: 440px !important;
+   }
+  }

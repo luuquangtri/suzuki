@@ -12,7 +12,7 @@
     #b4 {
         left: 45vw;
     }
-    #b5{
+    #b5 {
         left: 40vw;
         top: 8vw;
     }
@@ -32,7 +32,7 @@
     #b4 {
         left: 45vw;
     }
-    #b5{
+    #b5 {
         left: 40vw;
         top: 8vw;
     }
@@ -53,7 +53,7 @@
         left: 55vw;
         top: 30vw;
     }
-    #b5{
+    #b5 {
         left: 51vw;
     }
 }
@@ -215,13 +215,13 @@
     .navi-2 {
         display: block;
     }
-    .newpage .slidebar-cateqery ul li span{
+    .newpage .slidebar-cateqery ul li span {
         font-size: 16px;
     }
-    .newpage .slidebar-cateqery ul li a{
+    .newpage .slidebar-cateqery ul li a {
         font-size: 10px;
     }
-    .newpage .slidebar-menu li a{
+    .newpage .slidebar-menu li a {
         font-size: 12px;
     }
 }
@@ -540,41 +540,45 @@
         order: 1;
         padding: 0;
     }
-    .full-view{
-        padding: 0px ;
+    .full-view {
+        padding: 0px;
     }
-    .fix-view{
-        padding: 0px ;
+    .fix-view {
+        padding: 0px;
     }
-    .newpage .card-body{
+    .newpage .card-body {
         margin-bottom: 40px;
     }
-    .line-top{
+    .line-top {
         display: block !important;
     }
-    .fix-final{
+    .fix-final {
         display: none;
     }
+    #fancybox-content{
+        margin: 0 !important;
+    }
 }
-@media screen and (min-width: 576px) and (max-width: 768px){
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
     .vitri {
         order: 1;
         padding: 0;
     }
-    .full-view{
-        padding: 0px ;
+    .full-view {
+        padding: 0px;
     }
-    .newpage .fix-view{
+    .newpage .fix-view {
         padding-left: 0;
         padding-right: 15px;
     }
-    .newpage .card-body{
+    .newpage .card-body {
         margin-bottom: 40px;
     }
-    .line-top{
+    .line-top {
         display: block !important;
     }
-    .fix-final{
+    .fix-final {
         display: none;
     }
 }

@@ -10,14 +10,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/lightslider.min.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/jquery.mmenu.css">
     <link rel="stylesheet" href="css/jquery.mmenu.positioning.css">
     <link rel="stylesheet" href="css/site-pack.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/history.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -202,15 +199,55 @@
         </div>
         <!-- history-wall -->
         <div class="history container ">
-            <ul class="p-0 ddd">
-                <li><img src="images/history-wall/1909.jpg" alt=""></li>
-                <li><img src="images/history-wall/1950.jpg" alt=""></li>
-                <li class="ccc"><img src="images/history-wall/1960.jpg" alt=""></li>
-                <li><img src="images/history-wall/1970.jpg" alt=""></li>
-                <li><img src="images/history-wall/1980-.jpg" alt=""></li>
-                <li><img src="images/history-wall/inforaphic.jpg" alt=""></li>
-                <li><img src="images/history-wall/2000-.jpg" alt=""></li>
-                <li><img src="images/history-wall/2010-.jpg" alt=""></li>
+            <ul class="p-0">
+                <li>
+                    <div class="popup-gallery">
+                        <a href="images/history-wall/1909.jpg" title="1990"><img src="images/history-wall/1909.jpg"
+                                width="100%" height="100%"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="popup-gallery">
+                        <a href="images/history-wall/1950.jpg" title="1990"><img src="images/history-wall/1950.jpg"
+                                width="100%" height="100%"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="popup-gallery">
+                        <a href="images/history-wall/1960.jpg" title="1990"><img src="images/history-wall/1960.jpg"
+                                width="100%" height="100%"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="popup-gallery">
+                        <a href="images/history-wall/1970.jpg" title="1990"><img src="images/history-wall/1970.jpg"
+                                width="100%" height="100%"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="popup-gallery">
+                        <a href="images/history-wall/1980-.jpg" title="1990"><img src="images/history-wall/1980-.jpg"
+                                width="100%" height="100%"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="popup-gallery">
+                        <a href="images/history-wall/inforaphic.jpg" title="1990"><img
+                                src="images/history-wall/inforaphic.jpg" width="100%" height="100%"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="popup-gallery">
+                        <a href="images/history-wall/2000-.jpg" title="1990"><img src="images/history-wall/2000-.jpg"
+                                width="100%" height="100%"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="popup-gallery">
+                        <a href="images/history-wall/2010-.jpg" title="1990"><img src="images/history-wall/2010-.jpg"
+                                width="100%" height="100%"></a>
+                    </div>
+                </li>
 
             </ul>
         </div>
@@ -371,33 +408,27 @@
     <script src="themes/bootstrap.min.js"></script>
     <script src="themes/bootstrap.bundle.min.js"></script>
     <script src="themes/popper.js"></script>
-    <script src="themes/pluggin/lightslider.min.js"></script>
-    <script src="themes/pluggin/owl.carousel.min.js"></script>
-    <script src="themes/pluggin/swiper.min.js"></script>
+    <script src="themes/pluggin/jquery.magnific-popup.min.js"></script>
     <script src="themes/pluggin/main.js"></script>
     <script>
-        var swiper2 = new Swiper('.sub-tab-slider', {
-            slidesPerView: 4,
-            spaceBetween: 0,
-            // init: false,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            breakpoints: {
-                1024: {
-                    slidesPerView: 2,
+        $(document).ready(function () {
+            $('.popup-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
                 },
-                768: {
-                    slidesPerView: 2,
-                },
-                640: {
-                    slidesPerView: 1,
-                },
-                320: {
-                    slidesPerView: 1,
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function (item) {
+                        return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+                    }
                 }
-            }
+            });
         });
     </script>
 </body>
